@@ -92,58 +92,32 @@ $(document).ready(function(){
 
 });
 
-let hasScrolled = false; // Флаг, указывающий, была ли выполнена прокрутка
-let intervalId; // Переменная для хранения идентификатора интервала
+// Сохраняем текущий URL
+let currentUrl = window.location.href;
 
-// Функция для проверки URL и прокрутки
-function checkUrlAndScroll() {
-	console.log("Запуск проверки URL..."); // Лог начала проверки
-	console.log("Текущий URL:", window.location.pathname); // Лог текущего URL
+// Функция для проверки изменений URL
+function checkUrlChange() {
+	if (window.location.href !== currentUrl) {
+		console.log(`Адрес изменён: ${window.location.href}`);
 
-	if (hasScrolled) {
-		console.log("Прокрутка уже выполнена, пропускаем дальнейшую проверку."); // Лог, если прокрутка уже была
-		return; // Если прокрутка уже выполнена, выходим из функции
+		// Проверяем, содержит ли новый URL подстроку "/apply/"
+		if (window.location.href.includes('/apply/')) {
+			console.log(`В адресе появился /apply/`);
+
+			// Прокручиваем страницу к элементу с классом "main-catalog-wrapper"
+			const targetElement = document.querySelector('.main-catalog-wrapper');
+			if (targetElement) {
+				const targetOffset = targetElement.getBoundingClientRect().top + window.scrollY - 100; // 100px от верхней части окна
+				window.scrollTo({
+					top: targetOffset,
+					behavior: 'smooth' // Плавная прокрутка
+				});
+			}
+		}
+
+		currentUrl = window.location.href; // Обновляем текущий URL
 	}
-
-	if (window.location.pathname.includes('/apply/')) {
-		console.log("URL содержит '/apply/', выполняем прокрутку."); // Лог, если URL соответствует
-		window.scrollTo({
-			top: 100,
-			behavior: 'smooth' // Анимация прокрутки
-		});
-		hasScrolled = true; // Устанавливаем флаг, чтобы избежать повторной прокрутки
-		console.log("Прокрутка выполнена на 100 пикселей."); // Лог успешной прокрутки
-		stopChecking(); // Останавливаем дальнейшие проверки
-	} else {
-		console.log("URL не содержит '/apply/', продолжаем проверку..."); // Лог, если URL не соответствует
-	}
 }
 
-// Запускаем функцию при загрузке страницы
-window.onload = function() {
-	console.log("Страница загружена, запускаем начальную проверку..."); // Лог загрузки страницы
-	checkUrlAndScroll();
-	startChecking(); // Запускаем проверку при загрузке
-};
-
-// Функция для запуска интервала проверки
-function startChecking() {
-	console.log("Запуск интервала проверки URL..."); // Лог запуска интервала
-	intervalId = setInterval(checkUrlAndScroll, 500);
-}
-
-// Остановка интервала
-function stopChecking() {
-	console.log("Остановка интервала проверки URL."); // Лог остановки интервала
-	clearInterval(intervalId);
-}
-
-// Отслеживание изменений в URL
-window.addEventListener('popstate', function() {
-	console.log("Изменение URL обнаружено."); // Лог изменения URL
-	hasScrolled = false; // Сбрасываем флаг при изменении URL
-	checkUrlAndScroll(); // Проверяем новый URL
-});
-
-// Проверка URL каждые 500 мс
-startChecking();
+// Устанавливаем интервал проверки каждые 1000 мс (1 секунда)
+setInterval(checkUrlChange, 1000);
