@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Каталог",
+        "/catalog/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "B2B портал",
+        "https://b2b.ros-elektro.ru",
+        Array(),
+        Array("target"=>"_block"),
+        ""
+    ),
+    Array(
+        "Акции",
+        "/sale/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Контакты",
+        "/contacts/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

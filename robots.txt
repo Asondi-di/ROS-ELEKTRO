@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Crawl-delay:3
+sitemap:https://ros-elektro.ru:443/sitemap.xml
+sitemap:https://ros-elektro.ru:443/sitemapindex.xml
+sitemap:https://ros-elektro.ru:443/sitemapmobileindex.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2878161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2876161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2874161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2872161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2870161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2868161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2866161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2864161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2862161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2860161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2858161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2856161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2854161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2852161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2850161.xml
+sitemap:https://ros-elektro.ru:443/sitemap-hot-2848161.xml

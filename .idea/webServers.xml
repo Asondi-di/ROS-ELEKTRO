@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="218abf25-0bf2-401e-a533-c5c6b8a3d6fd" name="ROS-ELEKTRO" url="http://193.107.239.89">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/ros-elektro.ru" accessType="SFTP" host="193.107.239.89" port="22" sshConfigId="df17cae1-e80c-49b1-bea1-9e45eec55dd4" sshConfig="root@193.107.239.89:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<?
+	echo "no bitrix include";
+?>
+
+
+<??>

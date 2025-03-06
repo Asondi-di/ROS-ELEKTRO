@@ -1,0 +1,12 @@
+.spinner-fix svg path{
+    
+}
+.text-help-bprice{
+    color: #2f2482;
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.text-help-bprice + p{
+    margin: 0;
+}
