@@ -91,3 +91,59 @@ $(document).ready(function(){
 	// $('.header__top-wrap').width($('.header__top-item .search_wrap').width());
 
 });
+
+let hasScrolled = false; // Флаг, указывающий, была ли выполнена прокрутка
+let intervalId; // Переменная для хранения идентификатора интервала
+
+// Функция для проверки URL и прокрутки
+function checkUrlAndScroll() {
+	console.log("Запуск проверки URL..."); // Лог начала проверки
+	console.log("Текущий URL:", window.location.pathname); // Лог текущего URL
+
+	if (hasScrolled) {
+		console.log("Прокрутка уже выполнена, пропускаем дальнейшую проверку."); // Лог, если прокрутка уже была
+		return; // Если прокрутка уже выполнена, выходим из функции
+	}
+
+	if (window.location.pathname.includes('/apply/')) {
+		console.log("URL содержит '/apply/', выполняем прокрутку."); // Лог, если URL соответствует
+		window.scrollTo({
+			top: 100,
+			behavior: 'smooth' // Анимация прокрутки
+		});
+		hasScrolled = true; // Устанавливаем флаг, чтобы избежать повторной прокрутки
+		console.log("Прокрутка выполнена на 100 пикселей."); // Лог успешной прокрутки
+		stopChecking(); // Останавливаем дальнейшие проверки
+	} else {
+		console.log("URL не содержит '/apply/', продолжаем проверку..."); // Лог, если URL не соответствует
+	}
+}
+
+// Запускаем функцию при загрузке страницы
+window.onload = function() {
+	console.log("Страница загружена, запускаем начальную проверку..."); // Лог загрузки страницы
+	checkUrlAndScroll();
+	startChecking(); // Запускаем проверку при загрузке
+};
+
+// Функция для запуска интервала проверки
+function startChecking() {
+	console.log("Запуск интервала проверки URL..."); // Лог запуска интервала
+	intervalId = setInterval(checkUrlAndScroll, 500);
+}
+
+// Остановка интервала
+function stopChecking() {
+	console.log("Остановка интервала проверки URL."); // Лог остановки интервала
+	clearInterval(intervalId);
+}
+
+// Отслеживание изменений в URL
+window.addEventListener('popstate', function() {
+	console.log("Изменение URL обнаружено."); // Лог изменения URL
+	hasScrolled = false; // Сбрасываем флаг при изменении URL
+	checkUrlAndScroll(); // Проверяем новый URL
+});
+
+// Проверка URL каждые 500 мс
+startChecking();
