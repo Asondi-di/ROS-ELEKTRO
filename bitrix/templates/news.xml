@@ -1,0 +1,3559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2023-02-20T10:42:32">
+	<Классификатор>
+		<Ид>4</Ид>
+		<Наименование>Новости</Наименование>
+		<Свойства>
+			<Свойство>
+				<Ид>CML2_ACTIVE</Ид>
+				<Наименование>БитриксАктивность</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_CODE</Ид>
+				<Наименование>Символьный код</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_SORT</Ид>
+				<Наименование>Сортировка</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_ACTIVE_FROM</Ид>
+				<Наименование>Начало активности</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_ACTIVE_TO</Ид>
+				<Наименование>Окончание активности</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_PREVIEW_TEXT</Ид>
+				<Наименование>Анонс</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_DETAIL_TEXT</Ид>
+				<Наименование>Описание</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_PREVIEW_PICTURE</Ид>
+				<Наименование>Картинка анонса</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>438</Ид>
+				<Наименование>Связанные товары по фильтру</Наименование>
+				<Множественное>false</Множественное>
+				<БитриксСортировка>100</БитриксСортировка>
+				<БитриксКод>LINK_GOODS_FILTER</БитриксКод>
+				<БитриксТипСвойства>S</БитриксТипСвойства>
+				<БитриксСтрок>1</БитриксСтрок>
+				<БитриксКолонок>30</БитриксКолонок>
+				<БитриксТипСписка>L</БитриксТипСписка>
+				<БитриксТипыФайлов></БитриксТипыФайлов>
+				<БитриксКоличествоПолей>1</БитриксКоличествоПолей>
+				<БитриксСвязанныйИнфоблок></БитриксСвязанныйИнфоблок>
+				<БитриксОписаниеРазрешено>false</БитриксОписаниеРазрешено>
+				<БитриксПоискРазрешен>false</БитриксПоискРазрешен>
+				<БитриксФильтрРазрешен>false</БитриксФильтрРазрешен>
+				<БитриксРасширениеТипа>SAsproCustomFilter</БитриксРасширениеТипа>
+				<БитриксОбязательное>false</БитриксОбязательное>
+				<БитриксЗначениеПоУмолчанию>s:0:&quot;&quot;;</БитриксЗначениеПоУмолчанию>
+				<Сериализовано>1</Сериализовано>
+				<БитриксНастройкиРасширенияТипа>a:3:{s:14:&quot;IBLOCK_TYPE_ID&quot;;s:18:&quot;aspro_next_catalog&quot;;s:9:&quot;IBLOCK_ID&quot;;i:27;s:17:&quot;USE_OFFERS_IBLOCK&quot;;s:1:&quot;N&quot;;}</БитриксНастройкиРасширенияТипа>
+			</Свойство>
+		</Свойства>
+		<СвойстваЭлементов>
+			<Свойство>
+				<Ид>438</Ид>
+				<УмныйФильтр>false</УмныйФильтр>
+				<ТипОтображения>F</ТипОтображения>
+				<ПоказатьРазвёрнутым>false</ПоказатьРазвёрнутым>
+				<Подсказка></Подсказка>
+			</Свойство>
+		</СвойстваЭлементов>
+		<Группы>
+		</Группы>
+	</Классификатор>
+	<Каталог>
+		<Ид>4</Ид>
+		<ИдКлассификатора>4</ИдКлассификатора>
+		<Наименование>Новости</Наименование>
+		<БитриксКод>news</БитриксКод>
+		<БитриксСортировка>500</БитриксСортировка>
+		<БитриксURLСписок>#SITE_DIR#company/news/</БитриксURLСписок>
+		<БитриксURLДеталь>#SITE_DIR#company/news/#ELEMENT_ID#/</БитриксURLДеталь>
+		<БитриксURLРаздел>#SITE_DIR#company/news/section.php?SECTION_ID=#SECTION_ID#</БитриксURLРаздел>
+		<БитриксURLКанонический></БитриксURLКанонический>
+		<БитриксКартинка></БитриксКартинка>
+		<БитриксИндексироватьЭлементы>true</БитриксИндексироватьЭлементы>
+		<БитриксИндексироватьРазделы>true</БитриксИндексироватьРазделы>
+		<БитриксДокументооборот>false</БитриксДокументооборот>
+		<БитриксПодписи>
+			<БитриксПодпись>
+				<Ид>ELEMENT_NAME</Ид>
+				<Значение>Элемент</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENTS_NAME</Ид>
+				<Значение>Элементы</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_ADD</Ид>
+				<Значение>Добавить элемент</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_EDIT</Ид>
+				<Значение>Изменить элемент</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_DELETE</Ид>
+				<Значение>Удалить элемент</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_NAME</Ид>
+				<Значение>Раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTIONS_NAME</Ид>
+				<Значение>Разделы</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_ADD</Ид>
+				<Значение>Добавить раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_EDIT</Ид>
+				<Значение>Изменить раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_DELETE</Ид>
+				<Значение>Удалить раздел</Значение>
+			</БитриксПодпись>
+		</БитриксПодписи>
+		<Товары>
+			<Товар>
+				<Ид>56</Ид>
+				<Наименование>Бактерицидные облучатели, рециркуляторы и лампы</Наименование>
+				<БитриксТеги>Бактерицидные облучатели, рециркулятор, бактерицидные лампы, рециркулятор воздуха, рециркулятор воздуха бактерицидный, закрытый рециркулятор, облучатель бактерицидный, облучатели</БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>bakteritsidnye-obluchateli-retsirkulyatory-i-lampy</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2020-12-05 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;В наличии бактерицидные облучатели, рециркуляторы и люминесцентные бактерицидные лампы&amp;nbsp;по выгодным ценам.&lt;/h2&gt;
+ &lt;br&gt;
+ Бактерицидные облучатели и рециркуляторы применяются в качестве обеззараживания помещений в местах скопления людей. Они отлично борются с возбудителями респираторных и инфекционных заболеваний и патогенных организмов. Безопасно очищают и дезинфицируют воздух с помощью мощных UF-ламп в присутствии людей, животных, растений. &lt;br&gt;
+ Облучатели и рециркуляторы подходят для использования в жилых помещениях, офисах, предприятиях торговли и сферы услуг, а также учебных заведениях, культурных и спортивных учреждениях.&lt;br&gt;
+ &lt;br&gt;
+ Вся продукция проходит строгий контроль качества и проверку безопасности.&lt;br&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/bakteritsidnye_obluchateli_retsirkulyatory/&quot;&gt;&lt;img width=&quot;281&quot; alt=&quot;Рециркулятор бактерицидный Navigator&quot; src=&quot;/upload/medialibrary/52c/52c6c67f82751a63678119206e9eeea2.png&quot; height=&quot;281&quot; title=&quot;Рециркулятор бактерицидный Navigator&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;a href=&quot;https://ros-elektro.ru/catalog/lampy/lampy_lyuminestsentnye_ll_kll/lampy_lyuminestsentnye_bakteritsidnye_prochie/&quot;&gt;&lt;img width=&quot;270&quot; alt=&quot;Лампа бактерицидная TIBERA UVC 30W G13&quot; src=&quot;/upload/medialibrary/f64/f643b5b06d10862986a8a1963321b0f7.jpeg&quot; height=&quot;270&quot; title=&quot;Лампа бактерицидная TIBERA UVC 30W G13&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		&lt;h3&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/bakteritsidnye_obluchateli_retsirkulyatory/&quot;&gt;Бактерицидные облучатели&lt;/a&gt;&lt;/h3&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+ &lt;br&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		&lt;h3&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/lampy/lampy_lyuminestsentnye_ll_kll/lampy_lyuminestsentnye_bakteritsidnye_prochie/&quot;&gt;Лампы люминесцентные бактерицидные&lt;/a&gt;&lt;/h3&gt;
+		&lt;a href=&quot;https://ros-elektro.ru/catalog/lampy/lampy_lyuminestsentnye_ll_kll/lampy_lyuminestsentnye_bakteritsidnye_prochie/&quot;&gt; &lt;/a&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/755/755c6b8accb6a6e6dd42908706a3f4ce.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Бактерицидные облучатели, рециркуляторы и лампы</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Бактерицидные облучатели, рециркуляторы, бактерицидные лампы, рециркулятор воздуха,рециркулятор воздуха бактерицидный,закрытый рециркулятор,облучатель бактерицидный,облучатели,</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_DESCRIPTION</Ид>
+						<Значение>В наличии бактерицидные облучатели, рециркуляторы и лампы</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_PREVIEW_PICTURE_FILE_ALT</Ид>
+						<Значение>Бактерицидные облучатели</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>49300</Ид>
+				<Наименование>С Днем Энергетика!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/f6f/f6f9a8e23c1a0a22c932f853d355ff31.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>s-dnem-energetika</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2020-12-21 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;Уважаемые коллеги и партнеры! Поздравляем вас с нашим общим профессиональным праздником! Днем энергетика!&lt;/h2&gt;
+ Желаем новых достижений!&lt;br&gt;
+ Бесперебойной работы всех линий&lt;br&gt;
+ и объектов электроснабжения&lt;br&gt;
+ Счастья, здоровья,&amp;nbsp;успехов!&amp;nbsp;&lt;br&gt;
+&lt;blockquote&gt;
+	 Примечательно, что День энергетика отмечают в России в самый короткий день в году — в это время ваша работа заметна как никогда, ведь без света нам не обойтись. А еще, это зима и холодный климат, что тоже делает ваш труд бесценным — тепло в наших суровых условиях ой как нужно! Желаем вам жизни наполненной теплом, уютом и бесконечной любовью. С Днем энергетика!
+&lt;/blockquote&gt;
+&amp;nbsp;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/91b/91befb017d39a3dd9115c74e08a5afe0.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>50370</Ид>
+				<Наименование>Новинка ассортимента. Профессиональные светильники для высоких пролетов IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/14e/14ec57711551ae3356c13d2f37058c78.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>professionalnye-svetilniki-dlya-vysokikh-proletov-dsp-5001-5004-iek</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2020-12-23 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Профессиональные светильники для высоких пролетов ДСП 5001-5004 IEK® предназначены для освещения крупных производственных, складских, выставочных и торговых комплексов, в том числе с большим содержанием пыли и влаги. Обеспечивают качественное освещение при размещении на высоте и значительную экономию электроэнергии.&amp;nbsp;&lt;br&gt;
+ &lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;800&quot; alt=&quot;listovka_DSP_5001-5004_UFO.png&quot; src=&quot;/upload/medialibrary/f33/f3360c51b40b7a228389f98b38172878.png&quot; height=&quot;53&quot; title=&quot;listovka_DSP_5001-5004_UFO.png&quot; align=&quot;middle&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Преимущества светильников для высоких пролетов ДСП 5001-5004 IEK®&lt;/h3&gt;
+ • Вторичная оптика из УФ-устойчивого поликарбоната оптимально распределяет световой поток.&lt;br&gt;
+ • Широкий диапазон рабочего напряжения: 110-260 В. Стабильная работа при скачках и падениях напряжения в питающий сети.&lt;br&gt;
+ • Простой монтаж на подвес, легкая и компактная конструкция.&lt;br&gt;
+ • Порошковая покраска — надежная защита от ржавчины и механических воздействий.&lt;br&gt;
+ • Срок службы — не менее 50 000 часов.&lt;br&gt;
+ • Гарантия 3 года.&lt;br&gt;
+ &amp;nbsp;
+&lt;h3&gt;Технические характеристики светильников для высоких пролетов ДСП 5001-5004 IEK®&amp;nbsp;&lt;/h3&gt;
+ • Номинальное напряжение: 230 В, 50 Гц.&amp;nbsp;&lt;br&gt;
+ • Коэффициент пульсации: не более 5 %.&amp;nbsp;&lt;br&gt;
+ • Индекс цветопередачи, Ra &amp;gt;80.&amp;nbsp;&lt;br&gt;
+ • Коэффициент мощности: 0,9.&amp;nbsp;&lt;br&gt;
+ • Степень защиты IP65.&amp;nbsp;&lt;br&gt;
+ • Диапазон рабочих температур: от —25 до +45 °С.&amp;nbsp;&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/a1a/a1a0caf222409b4b0c6603ff7eff1e11.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>50833</Ид>
+				<Наименование>Корпуса металлические TITAN 5 ЩРн IP31 IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/21b/21bfcf435bfedd64eb06b0f89a027eb3.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>korpusa-metallicheskie-titan-5-shchrn-ip31</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-01-23 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;br&gt;
+ Щиты распределительные ЩРв серии &quot;TITAN 5&quot; предназначены для сборки распределительных электрощитов с использованием модульной аппаратуры, для ввода и распределения электроэнергии, а также защиты сетей напряжением 230/400 В от токов перегрузки и короткого замыкания.&amp;nbsp;Стальные корпуса ЩРв серии TITAN 5 от IEK разработаны для установки большого числа модульного оборудования: 120, 144, 180 и 216.&amp;nbsp;&lt;br&gt;
+ &lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;MKM12-V-144-31-Z-U&quot; src=&quot;/upload/medialibrary/cd6/cd686ef4c1b6b606c69bff3d294a4781.png&quot; height=&quot;267&quot; title=&quot;MKM12-V-144-31-Z-U&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;Особенности&amp;nbsp;моделей корпусов серии TITAN 5 IEK&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Удобство и простота сборки благодаря съемной монтажной раме.&lt;/li&gt;
+	&lt;li&gt;
+	Полная комплектация (суппорты с шинами N и PE).&lt;/li&gt;
+	&lt;li&gt;
+	Возможность установки шин сверху и снизу.&lt;/li&gt;
+	&lt;li&gt;
+	Многофункциональный кабель-ввод.&lt;/li&gt;
+	&lt;li&gt;
+	Возможность пломбировки фальшь-панели.&lt;/li&gt;
+	&lt;li&gt;
+	Жесткость конструкции.&lt;/li&gt;
+	&lt;li&gt;
+	Унифицированный модельный ряд.&lt;/li&gt;
+	&lt;li&gt;
+	Высокий уровень электробезопасности.&lt;/li&gt;
+	&lt;li&gt;
+	Стильный, эргономичный дизайн.&lt;/li&gt;
+	&lt;li&gt;
+	Наличие защитной оперативной панели.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img width=&quot;113&quot; alt=&quot;img121.jpg&quot; src=&quot;/upload/medialibrary/46b/46bb47752beb128597c59c78790ce17b.jpg&quot; height=&quot;158&quot; title=&quot;img121.jpg&quot; align=&quot;middle&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img width=&quot;127&quot; alt=&quot;img123.jpg&quot; src=&quot;/upload/medialibrary/a25/a25988aba77ed14b9e252c2726e3a0a1.jpg&quot; height=&quot;170&quot; title=&quot;img123.jpg&quot; align=&quot;middle&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img width=&quot;167&quot; alt=&quot;img122.jpg&quot; src=&quot;/upload/medialibrary/1a8/1a836fe52588b67615e1e46ff6eeb44f.jpg&quot; height=&quot;152&quot; title=&quot;img122.jpg&quot; align=&quot;middle&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td style=&quot;background-color: #ebebeb;&quot;&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;З&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;ащитная пластиковая оперативная панель исключает&amp;nbsp;&lt;br&gt;
+ &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;поражение &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;током &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;в ходе эксплуатации&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;готового&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;изделия.&lt;/span&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 10pt;&quot;&gt; &lt;/span&gt;
+	&lt;/td&gt;
+	&lt;td style=&quot;background-color: #ebebeb;&quot;&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;Съемная монтажная рама: - возможность производить &lt;br&gt;
+ &lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;монтаж&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;вне корпуса; - удобство и простота сборки; &lt;br&gt;
+ &lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;DIN-рейки&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;установлены с шагом 125 мм.&lt;/span&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+ &lt;br&gt;
+	&lt;/td&gt;
+	&lt;td style=&quot;background-color: #ebebeb;&quot;&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Шины N и PE защелкиваются в держатели стойки&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;, &lt;/span&gt;&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;которые устанавливаются в гнезда монтажных профилей&amp;nbsp;&lt;/span&gt;&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&amp;nbsp;при помощи зацепов.&lt;/span&gt;&amp;nbsp;&lt;/span&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;span style=&quot;color: #383838; font-size: 1.6em; font-weight: bold;&quot;&gt;Технические характеристики металлических корпусов&amp;nbsp;TITAN 5 IEK&lt;/span&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 Степень защиты:&amp;nbsp;&amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;IP31&lt;/b&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 Климатическое исполнение:
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;УХЛ3&lt;/b&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 Номинальный ток:
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;125&amp;nbsp;А&lt;/b&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 Материал корпуса:&amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Сталь&lt;/b&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ Приобрести стальные корпуса TITAN 5 ЩРв от IEK&amp;nbsp;можно на нашем сайте.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/9b4/9b4fde8f5c1bce326313bb5cca0576f6.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Корпуса металлические TITAN 5 ЩРн IP31 IEK</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Корпуса металлические TITAN 5 ЩРн IP31 IEK, Щиты распределительные ЩРв, щиты IEK, щиты TITAN 5, модели корпусов TITAN 5</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_DESCRIPTION</Ид>
+						<Значение>Стальные корпуса ЩРв серии TITAN 5 от IEK для установки большого числа модульного оборудования: 120, 144, 180 и 216. </Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>50859</Ид>
+				<Наименование>Акция IEK: Сезон Бонусов!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/89f/89f9e7d0e75dc89575a62fa0beb67761.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>aktsiya-iek-sezon-bonusov</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-02-01 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Преодолевайте пороги по закупкам акционной продукции IEK и получайте бонусы!&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Условия:&lt;/span&gt;&lt;/h3&gt;
+ На период акции клиенты компании РОС-Электро при закупках продукции ТМ IEK в товарных группах&lt;b&gt; &lt;/b&gt;&quot;&lt;b&gt;&lt;a href=&quot;http://ros-elektro.ru/catalog/kabelenesushchie_sistemy/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;Кабеленесущие системы&lt;/a&gt;&lt;/b&gt;&quot; и &quot;&lt;b&gt;&lt;a href=&quot;http://ros-elektro.ru/catalog/svetilniki/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;Светотехника&lt;/a&gt;&lt;/b&gt;&quot; получают бонусы:&lt;br&gt;
+&lt;ul&gt;
+	&lt;li&gt;При достижении порога в &lt;b&gt;50 000 руб.&lt;/b&gt; – бонус &lt;b&gt;2 %&lt;/b&gt; от объема закупа.&lt;/li&gt;
+	&lt;li&gt;При достижении порога в &lt;b&gt;100 000 руб&lt;/b&gt;. – бонус&lt;b&gt; 2,5 %&lt;/b&gt; от объема закупа.&lt;/li&gt;
+	&lt;li&gt;При достижении порога в &lt;b&gt;200 000 руб.&lt;/b&gt; – бонус &lt;b&gt;3 %&lt;/b&gt; от объема закупа.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ Максимальная сумма бонуса ограничена и составляет - 40 000 руб.&lt;br&gt;
+ &lt;br&gt;
+ Акционная программа распространяется на&amp;nbsp;юридические лица, торговые организации СМО, СЩО.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;
+Итоги акции будут подведены &lt;/b&gt;&lt;b&gt;до 31 мая 2021 года.&lt;/b&gt;&lt;br&gt;
+ Все подробности уточняйте у Вашего менеджера!&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ Смотрите категории товаров участвующих в акции:&lt;br&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Кабеленесущие системы&amp;nbsp;&lt;/span&gt;&lt;/h3&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Светотехника&lt;/span&gt;&lt;/h3&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+ &lt;img width=&quot;197&quot; alt=&quot;ce410097aba9f32bff44d58a7d394eb7.png&quot; src=&quot;/upload/medialibrary/d84/d845affa48425b0822fb1f84db034cf9.png&quot; height=&quot;160&quot; title=&quot;ce410097aba9f32bff44d58a7d394eb7.png&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+ &lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/kabel_kanaly_i_aksessuary/kabel_kanaly_i_aksessuary_iek/&quot;&gt;&lt;/a&gt; &lt;br&gt;
+ &lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/kabel_kanaly_i_aksessuary/kabel_kanaly_i_aksessuary_iek/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Кабель-каналы и аксессуары IEK&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/kabelnye_lotki_i_aksessuary/kabelnye_lotki_i_aksessuary_iek/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Кабельные лотки и аксессуары IEK&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/metallorukav_i_aksessuary/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Металлорукав для кабеля и аксессуары&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/truba_gladkaya_gibkaya_pnd/truba_gladkaya_gibkaya_pnd_iek/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Труба гладкая гибкая ПНД IEK&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/truba_gofrirovannaya/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Гофрированная труба для кабеля&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/truba_zhestkaya_gladkaya/truba_zhestkaya_gladkaya_iek/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Труба жесткая гладкая IEK&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;
+		Т&lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/truby_elektromontazhnye_stalnye_i_alyuminievye/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;рубы электромонтажные стальные и алюминиевые&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/klipsy_dyubeli_aksessuary_dlya_trub/klipsy_dyubeli_aksessuary_dlya_trub_iek/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Клипсы, дюбели, аксессуары для труб&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;a href=&quot;https://ros-elektro.ru/catalog/kabelenesushchie_sistemy/klipsy_dyubeli_aksessuary_dlya_trub/klipsy_dyubeli_aksessuary_dlya_trub_iek/&quot;&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+ &lt;img width=&quot;144&quot; alt=&quot;750adef031a870a725e4513de869c472.png&quot; src=&quot;/upload/medialibrary/455/455c1c5d8ecf5d62353f7dbf2a6fef77.png&quot; height=&quot;165&quot; title=&quot;750adef031a870a725e4513de869c472.png&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+ &lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetilniki_dlya_ofisov_i_administrativnykh_pomeshcheniy/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светильники для офисов и административных помещений&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetilniki_vlagozashchishchennye_dlya_obshchego_i_mestnogo_osveshcheniya/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светильники влагозащищенные для общего и местного освещения&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetilniki_dlya_zhilykh_pomeshcheniy/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светильники для жилых помещений&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/tochechnye_vstraivaemye_svetilniki/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;Точечные светильники&lt;/a&gt;&lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetodiodnaya_lenta_girlyandy/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светодиодная лента, гирлянды&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetilniki_tekhnicheskie_i_spetsialnogo_naznacheniya/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светильники технические и специального назначения&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/svetilniki_ulichnye_opory/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Светильники уличные, опоры&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/prozhektory/filter/in_stock-is-y/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Прожекторы&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/fonari_perenosnye_svetilniki_elementy_pitaniya/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Фонари, переносные светильники, элементы питания&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/upravlenie_osveshcheniem_datchiki_fotorele/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Управление освещением (датчики, фотореле)&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/svetilniki/komplektuyushchie_dlya_svetilnikov_patrony_plafony_krepleniya_startery_transformatory_pra_izu/filter/cml2_manufacturer-is-a258d631-2c0f-11e4-9f40-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Комплектующие для светильников (патроны, плафоны, крепления, стартеры, ПРА, ИЗУ&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;)&lt;/span&gt;&lt;br&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+&lt;blockquote&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;* Призовой фонд выплачивается через площадку электронных сертификатов gift.iekbonus.ru в виде подарочных&lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;
+	электронных сертификатов в магазины Спортмастер/Л’Этуаль/Детский мир и т. д. (из предложенного списка&lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;
+	сертификатов). Для получения бонуса победителю потребуется заполнить все поля анкеты и прикрепить скан\&lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 10pt;&quot;&gt;
+	фотографию своего гражданского паспорта (главной страницы и страницы с пропиской).&lt;/span&gt;
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/c37/c375a1b02b817a3ec9b0e1016459bf81.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Акция IEK: Сезон Бонусов!</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Акция IEK, Сезон Бонусов, продукция IEK</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_DESCRIPTION</Ид>
+						<Значение>Акция IEK: Преодолевайте пороги по закупкам акционной продукции IEK и получайте бонусы!</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>51262</Ид>
+				<Наименование>Новинки! Инструменты TDM серии &quot;Мастер Электрик&quot;</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/f3d/f3d289e8729bddd3df382d3a6285f4df.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>novinki-instrumenty-tdm-serii-master-elektrik</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-02-18 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;Инструменты серии &quot;Мастер Электрик&quot; от TDM.&amp;nbsp;&lt;/h2&gt;
+ Для проведения электромонтажных работ&amp;nbsp;главными помощниками для любого мастера служат качественные и надежные инструменты.&lt;br&gt;
+ &lt;br&gt;
+ Сообщаем вам о расширении ассортимента торговой марки TDM ELECTRIC и о поступлении на склад РОС-Электро новых товаров:&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+	&lt;li&gt;Мультиметры и токоизмерительные клещи&lt;/li&gt;
+	&lt;li&gt;Пресс клещи гидравлические ПГРс-70&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;
+	Кабелерезы с функцией зачистки изоляции&lt;/li&gt;
+	&lt;li&gt;
+	Ножницы кабельные&amp;nbsp;НК&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt; &lt;/h3&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/c58/c587e881d84d19538bb9c98b9c332071.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>51874</Ид>
+				<Наименование>График работы РОС-Электро 8 марта</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/401/401331cfe9463ff73592da3458904b72.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>grafik-raboty-ros-elektro-8-marta</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-03-05 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;Милые женщины!&lt;br&gt;
+Поздравляем вас с прекрасным весенним праздником — с Днем 8 марта!&lt;/h2&gt;
+ Желаем огромного счастья, крепкой любви, высоких достижений в жизни и успехов во всем, пусть всё вокруг радует и вдохновляет вас!&lt;br&gt;
+ Скорейшего наступления весенних деньков и яркого солнышка! Исполнения желаний и ярких положительных эмоций!&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;График работы офисов и магазинов РОС-Электро в выходные и праздничные дни.&lt;/span&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+	 06.03-07.03 выходные дни.&lt;br&gt;
+	 8 марта - выходной праздничный день&lt;br&gt;
+	 с 9.03 - в обычном режиме.
+&lt;/blockquote&gt;
+ &lt;br&gt;
+</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/3e6/3e63953d0914fe2a66ff19852d79a614.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>52052</Ид>
+				<Наименование>Встраиваемые светильники для ламп MR16 - легкий монтаж и безопасная эксплуатация </Наименование>
+				<БитриксТеги>IEK</БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>vstraivaemye-svetilniki-dlya-lamp-mr16-legkiy-montazh-i-bezopasnaya-ekspluatatsiya-</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-03-15 14:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;MR16 IEK.png&quot; src=&quot;/upload/medialibrary/e84/e8474a995ba36c9131480d02f7b3c35c.png&quot; height=&quot;475&quot; title=&quot;MR16 IEK.png&quot;&gt;
+&lt;/p&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ Встраиваемые светильники для ламп MR16 IEK® предназначены для монтажа в натяжные и подвесные потолки и широко применяются в бытовом и офисном освещении. В комплекте с каждым светильником поставляется керамический патрон для лампы GU5.3.&amp;nbsp;&lt;br&gt;
+ &lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;MR16 IEK_2.png&quot; src=&quot;/upload/medialibrary/7e9/7e97f224f7f61990e36806f8e001ce9f.png&quot; height=&quot;80&quot; title=&quot;MR16 IEK_2.png&quot;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Особенности&amp;nbsp;встраиваемых светильников для ламп MR16 IEK®&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;Подходят для любых ламп с цоколем GU5.3.&lt;/li&gt;
+	&lt;li&gt;Рамка светильника выполнена из стали с антикоррозионным цветным покрытием.&lt;/li&gt;
+	&lt;li&gt;Керамический патрон соответствует всем требованиям безопасности.&lt;/li&gt;
+	&lt;li&gt;Классическая рамка светильника диаметром 80 мм.&lt;/li&gt;
+	&lt;li&gt;Простая установка — не требуется специальных инструментов.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ Приобрести встраиваемые светильники MR16 ТМ IEK® можно на нашем сайте.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/434/434fcdcb9afbe665c9d86c4cd18738b9.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Встраиваемые светильники IEK для ламп MR16 для ламп с цоколем GU5.3.</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Встраиваемые светильники IEK для ламп MR16, GU5.3.</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_DESCRIPTION</Ид>
+						<Значение>Встраиваемые светильники для ламп MR16 IEK® предназначены для монтажа в натяжные и подвесные потолки и широко применяются в бытовом и офисном освещении. В комплекте с каждым светильником поставляется керамический патрон для лампы GU5.3.</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>52200</Ид>
+				<Наименование>Аварийный светильник ДПА 060 IEK®. Минималистичный дизайн и эффективное освещение </Наименование>
+				<БитриксТеги>IEK</БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>novinka-avariynyy-svetilnik-dpa-060-iek-minimalistichnyy-dizayn-i-effektivnoe-osveshchenie-</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-04-02 11:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;ДПА 060 IEK&quot; src=&quot;/upload/medialibrary/c7f/c7f8124eee578c826b7c4128c5fffe39.jpg&quot; height=&quot;408&quot; title=&quot;ДПА 060 IEK&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+ &lt;br&gt;
+ Аварийный светильник ДПА 060 IEK® предназначен для подсветки путей эвакуации в аварийной ситуации. Благодаря минималистичному дизайну светильник малозаметен на поверхности потолка, когда включено рабочее освещение. При возникновении аварийной ситуации светильник создает нормативную освещенность.&amp;nbsp;&lt;br&gt;
+ Светильник непостоянного действия. В базовой комплектации установлена линза для общего освещения (сменная), в комплекте — линза коридорного типа.&amp;nbsp;&lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;Особенности аварийного светильника ДПА 060 IEK®&lt;/span&gt;&lt;/h2&gt;
+ • Визуальный контроль работоспособности светильника и состояния батареи.&lt;br&gt;
+ • Материал корпуса — не поддерживающий горение пластик.&lt;br&gt;
+ • Индивидуальная кнопка тестирования.&lt;br&gt;
+ • Защита от глубокого разряда и перезаряда аккумулятора.&lt;br&gt;
+ • Возможность заменить аккумулятор, не меняя светильник.&lt;br&gt;
+ &amp;nbsp;
+&lt;h2&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;Технические характеристики аварийного светильника ДПА 060 IEK®&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+ • Аккумулятор LiFePO4 с возможностью замены (количество циклов перезаряда свыше 5000, нет эффекта памяти).&amp;nbsp;&lt;br&gt;
+ • Время работы от АКБ: 3 часа.&amp;nbsp;&lt;br&gt;
+ • Мощность: 3 Вт.&amp;nbsp;&lt;br&gt;
+ • Световой поток: 300 лм.&amp;nbsp;&lt;br&gt;
+ • Степень защиты IP20.&amp;nbsp;&lt;br&gt;
+ • Цветовая температура: 5700 К.&amp;nbsp;&lt;br&gt;
+ • Гарантия 4 года.&amp;nbsp;&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ Приобрести аварийный светильник ДПА 060 IEK®&amp;nbsp; можно на нашем сайте.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/b93/b935cd5f8b72b1208abc4e8f9bbea2ba.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Аварийный светильник ДПА 060 IEK</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>аварийный светильник ДПА 060 IEK, купить аварийный светильник, аварийное освещение</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>52469</Ид>
+				<Наименование>Светодиодные трековые светильники IEK</Наименование>
+				<БитриксТеги>IEK, Светодиодные трековые светильники IEK</БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>svetodiodnye-trekovye-svetilniki-iek</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-04-20 10:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;svetodiodnye-trekovye-svetilniki-iek (1).jpg&quot; src=&quot;/upload/medialibrary/9eb/9eb75e371f2f3630cd70cad748d28774.jpg&quot; height=&quot;471&quot; title=&quot;svetodiodnye-trekovye-svetilniki-iek (1).jpg&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+ &lt;br&gt;
+ Светодиодные трековые светильники IEK применяются для акцентного освещения коммерческих площадей различного формата – от небольших магазинов до гипермаркетов.&lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Особенности трековых светильников IEK® PRO&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Широкие возможности по созданию различных световых схем.&lt;/li&gt;
+	&lt;li&gt;
+	Большой диапазон регулировки положения светильника и направленности света.&lt;/li&gt;
+	&lt;li&gt;
+	Индекс цветопередачи CRI&amp;gt;80. Естественные цвета освещаемых предметов.&lt;/li&gt;
+	&lt;li&gt;
+	Повышенная безопасность. Наличие заземляющего контакта у всех моделей.&lt;/li&gt;
+	&lt;li&gt;
+	Надежный профессиональный драйвер. &lt;/li&gt;
+	&lt;li&gt;Стабильный световой поток и отсутствие пульсации.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;999&quot; alt=&quot;svetodiodnye-trekovye-svetilniki-iek (2).jpg&quot; src=&quot;/upload/medialibrary/e81/e81412f6a1198bb82a4cde4c5e88170b.jpg&quot; height=&quot;279&quot; title=&quot;svetodiodnye-trekovye-svetilniki-iek (2).jpg&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ Приобрести трековые светильники IEK®&amp;nbsp;можно на нашем сайте.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/cbb/cbbae76b5e4b60b9b394d71932d06f09.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Светодиодные трековые светильники IEK</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Светодиодные трековые светильники IEK, трековые светильники</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>59558</Ид>
+				<Наименование>График работы РОС-Электро с 1 по 10 мая</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>grafik-raboty-ros-elektro-s-1-po-10-maya</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-04-30 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;График работы офисов и магазинов РОС-Электро в выходные и праздничные дни&lt;/h2&gt;
+ Уважаемы клиенты, в период майских праздников магазины и офисы Рос-Электро работают по измененному графику.&lt;br&gt;
+ &lt;br&gt;
+&lt;blockquote&gt;
+	 30.04.2021 - сокращенный день, до 17.00ч&lt;br&gt;
+ &lt;br&gt;
+	 В период с 01.5.2021 по 03.05.2021 - Праздничные дни &quot;1 мая День Весны и Труда&quot;&lt;br&gt;
+	 В период с 08.05.2021 по 10.05.2021 - Праздничные дни &quot;День Победы&quot;&lt;br&gt;
+ &lt;br&gt;
+	 В период с 04.05.2021 по 07.05.2021 - в дежурном режиме с 9 до 18 ч
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/f5a/f5acdb39d5dc01f1422a157492a94ff3.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>60989</Ид>
+				<Наименование>Светильники светодиодные встраиваемые поворотные серии DSL-01 «Акцент-1» </Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>svetilniki-svetodiodnye-vstraivaemye-povorotnye-serii-dsl-01-aktsent-1-</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-05-18 10:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+ &lt;img width=&quot;922&quot; alt=&quot;18052021_2.jpg&quot; src=&quot;/upload/medialibrary/019/01944762acbdeaf9e61276b735420663.jpg&quot; height=&quot;399&quot; title=&quot;18052021_2.jpg&quot; align=&quot;middle&quot;&gt;&lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Светильники светодиодные встраиваемые поворотные&amp;nbsp;«Акцент-1»&amp;nbsp;торговой марки TDM ELECTRIC.&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+&lt;div&gt;
+	 Светильники предназначены для внутреннего освещения торговых и&amp;nbsp;выставочных павильонов, декоративной интерьерной подсветки. Благодаря&amp;nbsp;индексу цветопередачи &amp;gt;90 Ra серии DSL-01&amp;nbsp;в точности передают натуральные цвета освещаемых предметов.
+&lt;/div&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Применение светильников&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+ - Для&amp;nbsp;магазинов, витрин, выставочных комплексов, торговых площадей;&lt;br&gt;
+ - офисов и административных помещений;&lt;br&gt;
+ - кафе и ресторанов;&lt;br&gt;
+ - общественных и жилых помещений;&lt;br&gt;
+ - интерьерного и декоративного освещения и подсветки;&lt;br&gt;
+ - общего, локального и акцентного освещения.&lt;br&gt;
+ &lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Конструкция&lt;/span&gt;&lt;/h2&gt;
+ - монтажное кольцо изготовлено из стали, корпус светильника изготовлен из литого под давлением алюминиевого сплава, окрашены порошковой краской;&lt;br&gt;
+ - пластиковый корпус для источника питания;&lt;br&gt;
+ - источник света – СОВ матрица;&lt;br&gt;
+ - защитный рассеиватель – стекло;&lt;br&gt;
+ - отражатель из алюминиевого сплава.&lt;br&gt;
+ &lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Преимущества&lt;/span&gt;&lt;/h2&gt;
+ - высокий индекс цветопередачи &amp;gt;90 Ra;&lt;br&gt;
+ - направление свечения регулируется поворотом корпуса светильника до 360° по горизонтали и наклоном до 90° по вертикали;&lt;br&gt;
+ - диапазон рабочих напряжений 180-260 В;&lt;br&gt;
+ - 2 варианта цветовых температур: 3000 К и 4000 К;&lt;br&gt;
+ - быстрое включение;&lt;br&gt;
+ - бесшумная работа;&lt;br&gt;
+ - гарантийный срок 2 года.&lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;748&quot; alt=&quot;rasshirenie-assortimenta-i-postuplenie-na-sklad-novinok-svetilnikov-led-vstraivaemyh-povorotnyh-s-indeksom-cvetoperedachi-90-ra-serii-dsl-01-akce-5ec6f76.jpg&quot; src=&quot;/upload/medialibrary/c47/c477e1f99209de27f61c87d54677078a.jpg&quot; height=&quot;268&quot; title=&quot;rasshirenie-assortimenta-i-postuplenie-na-sklad-novinok-svetilnikov-led-vstraivaemyh-povorotnyh-s-indeksom-cvetoperedachi-90-ra-serii-dsl-01-akce-5ec6f76.jpg&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img width=&quot;348&quot; alt=&quot;111.png&quot; src=&quot;/upload/medialibrary/d54/d54a000dd2e2314f8e99670ca5e32603.png&quot; height=&quot;282&quot; title=&quot;111.png&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &amp;nbsp; Приобрести светодиодные встраиваемые поворотные светильники «Акцент-1»&amp;nbsp;можно на нашем сайте.&lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/a20/a20c30a8c23a63cab02833b67456f859.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Светильники светодиодные встраиваемые поворотные «Акцент-1» </Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Светильники светодиодные встраиваемые поворотные, трековые</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>61143</Ид>
+				<Наименование>Продукция Курского электроаппаратного завода</Наименование>
+				<БитриксТеги>КЭАЗ</БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>produktsiya-kurskogo-elektroapparatnogo-zavoda</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-05-27 10:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;banner.jpg&quot; src=&quot;/upload/medialibrary/556/5567b7064e9adf9ea39f4eca96b56871.jpg&quot; height=&quot;455&quot; title=&quot;banner.jpg&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+ &lt;br&gt;
+ &amp;nbsp; Рады сообщить, в ассортимент компании Рос-Электро поступила&amp;nbsp;продукция Курского электроаппаратного завода.&lt;br&gt;
+&lt;h2&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Предлагаем следующие виды электрооборудования КЭАЗ:&lt;/span&gt;&lt;/h2&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;• &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/modulnoe_oborudovanie_/filter/cml2_manufacturer-is-88116391-274b-11e8-ba6e-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Автоматические выключатели и предохранители&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;
+• &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/silovoe_oborudovanie/predokhraniteli_i_plavkie_vstavki/filter/cml2_manufacturer-is-88116391-274b-11e8-ba6e-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Плавкие вставки&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;
+• &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/silovoe_oborudovanie/filter/cml2_manufacturer-is-88116391-274b-11e8-ba6e-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Выключатели-разъединители&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;
+• &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/silovoe_oborudovanie/filter/cml2_manufacturer-is-88116391-274b-11e8-ba6e-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Дифавтоматы&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;
+• &lt;/span&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/silovoe_oborudovanie/filter/cml2_manufacturer-is-88116391-274b-11e8-ba6e-000c297c437c/apply/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Контакты сигнализации&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;
+Курский электроаппаратный завод (КЭАЗ)&lt;/b&gt; — один из крупнейших российских производителей электротехнических изделий, предприятие с 70 летней историей успешной работы.&lt;br&gt;
+ &lt;br&gt;
+ Оборудование «Курского электроаппаратного завода» применяют при строительстве жилого фонда, коммерческой недвижимости, на промышленных предприятиях,&amp;nbsp; энергосистеме объектов по всей России, ТЭЦ, АЭС, МРСК, в объектах составах РЖД и метрополитена, и т.д.&lt;br&gt;
+ &lt;br&gt;
+ Продукция предприятия КЭАЗ отличается стабильным и высоким качеством, имеет необходимую сертификацию, получила призы на отраслевых выставках, в том числе на конкурсе «100 лучших товаров России».&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;450&quot; alt=&quot;logo.png&quot; src=&quot;/upload/medialibrary/3f5/3f55cb62e516a8dcb6fbfc46e26c0be6.png&quot; height=&quot;139&quot; title=&quot;logo.png&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ Приобрести электротехническую продукцию «Курского электроаппаратного завода»&amp;nbsp;можно на нашем сайте.&lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/e13/tamy8nhilbmza1f5k24z7b3kplirht6k.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+				<НаследуемыеШаблоны>
+					<Шаблон>
+						<Ид>ELEMENT_META_TITLE</Ид>
+						<Значение>Продукция Курского электроаппаратного завода</Значение>
+					</Шаблон>
+					<Шаблон>
+						<Ид>ELEMENT_META_KEYWORDS</Ид>
+						<Значение>Продукция Курского электроаппаратного завода, КЭАЗ</Значение>
+					</Шаблон>
+				</НаследуемыеШаблоны>
+			</Товар>
+			<Товар>
+				<Ид>61304</Ид>
+				<Наименование>Режим работы РОС-Электро с 12 по 14 июня</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/e98/e9841fd3ffefd724c33780ff7c1234e1.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>rezhim-raboty-ros-elektro-s-12-po-14-iyunya</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-06-11 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Уважаемые коллеги, клиенты и партнеры! Поздравляем вас с Днем России!&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;График работы офисов и магазинов РОС-Электро:&lt;/span&gt;&lt;/h3&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;11 июня&lt;/span&gt; &lt;/b&gt;&lt;/span&gt;- сокращенный день до 17.00ч&lt;br&gt;
+ &lt;span style=&quot;color: #ee1d24;&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #ee1d24;&quot;&gt;С 12 по 14 июня&lt;/span&gt;&lt;/b&gt;&lt;/span&gt; - выходные дни.&lt;br&gt;
+&lt;blockquote&gt;
+	 Телефоны для связи в Екатеринбурге: 217-03-99, 278-27-37&lt;br&gt;
+	 Тюмени: 39-33-30,&lt;br&gt;
+	 Челябинске: 211-27-07
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/580/580dbb8b721098bf7ae8413a03955350.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>62269</Ид>
+				<Наименование>Поздравляем с Днем Строителя!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/a4e/a4ecf872e32c6f6127797696f2ee90fc.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pozdravlyaem-s-dnem-stroitelya</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-08-06 00:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Компания РОС-Электро поздравляет всех строителей&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;с профессиональным праздником!&lt;/span&gt;&lt;/h2&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+ &lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Успешно воплощаются проекты,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Растут и хорошеют города!&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Спасибо вам, строители, за это!&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Спасибо! Будьте счастливы всегда!&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Пусть новые идеи вдохновляют,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Доходы умножаются у вас,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	И каждый год страна вас поздравляет&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Так искренне и дружно, как сейчас!&lt;br&gt;
+ &lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Отделочники, мастера, прорабы,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Все, кто готовит чертежи и сметы,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Пусть знаний ваших лишь растут масштабы,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Кипит работа хоть зимой, хоть летом!&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Пусть будет труд оценен и оплачен,&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Пусть не подводит никогда здоровье!&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;
+	Весомых достижений и удачи&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Желаем в День строителя с любовью!&lt;/span&gt;
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/2c5/2c58cbf89dc22982a12b5a37c5e1e061.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>62455</Ид>
+				<Наименование>Новинки светотехники IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>novinki-svetotekhniki-iek-v-nalichii</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-08-12 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>В наличии на складе светотехника IEK: 
+ - Аварийные и технические светильники, светильники общего и местного освещения, прожекторы, датчики движения, комплектующие, лапмы.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/28a/mcuan7lmqa6our7cmbko75q60e5qfyjb.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>98313</Ид>
+				<Наименование>Светодиодные светильники ДКУ 1012 с КСС Ш от IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/987/679x5823nrp969ihp54g00371ngtbgl8.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>svetodiodnye-svetilniki-dku-1012-s-kss-sh-ot-iek</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-10-21 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;br&gt;
+ Светодиодные светильники ДКУ 1012 IEK® с КСС Ш — это энергоэффективное решение для наружного освещения дорог со средней и низкой интенсивностью движения, парков, придомовых территорий, площадей, автостоянок. Широкая кривая силы света (КСС Ш) обеспечивает качественную равномерную засветку дорожного полотна.&lt;br&gt;
+ &lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1000&quot; alt=&quot;ДКУ 1012 IEK.jpg&quot; src=&quot;/upload/medialibrary/63a/9ekeo1n9yh8mcnstv6ntwfys5p0ogbo3.jpg&quot; height=&quot;67&quot; title=&quot;ДКУ 1012 IEK.jpg&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3&gt;Преимущества светодиодных светильников ДКУ 1012 IEK®:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Простой монтаж на консоль, легкая и компактная конструкция. &lt;/li&gt;
+	&lt;li&gt;Обтекаемая форма корпуса обеспечивает высокую ветроустойчивость.&lt;/li&gt;
+	&lt;li&gt;Особая конструкция радиатора гарантирует защиту от обледенения.&lt;/li&gt;
+	&lt;li&gt;Порошковая покраска — надежная защита корпуса от воздействия внешней агрессивной среды.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Технические характеристики:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Мощность: 30, 50, 100, 150, 200 Вт. &lt;/li&gt;
+	&lt;li&gt;Степень защиты от пыли и влаги: IP65. &lt;/li&gt;
+	&lt;li&gt;Диапазон рабочих температур: от −50 до +50 °С. &lt;/li&gt;
+	&lt;li&gt;Индекс цветопередачи: Ra &amp;gt;70. &lt;/li&gt;
+	&lt;li&gt;Цветовая температура: 5000 К.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &amp;nbsp; Приобрести светильники ДКУ 1012 IEK® с КСС Ш можно у нас на&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/0ae/hfny7vzyxpxe9671w67kl21xgr2seuma.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>98493</Ид>
+				<Наименование>Самая мощная светодиодная лампа HP в ассортименте IEK Lighting®</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/14a/53o4ly1qk7a7913bevd78d9lnx3gcjx0.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>samaya-moshchnaya-svetodiodnaya-lampa-hp-v-assortimente-iek-lighting</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-11-09 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;br&gt;
+ Эффективная замена ртутных, галогенных и люминесцентных ламп высокой мощности -&amp;nbsp;светодиодная лампа HP IEK®. При мощности 160 Вт она обеспечивает световой поток 20 000 лм. Высокая светоотдача 125 лм/Вт позволяет эффективно осветить магазины, склады, производственные помещения с высокими пролётами.&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;img width=&quot;1000&quot; alt=&quot;Lamp-s.jpg&quot; src=&quot;/upload/medialibrary/354/8ilg2s4abq5p7puzxnocurmc512golbj.jpg&quot; height=&quot;67&quot; title=&quot;Lamp-s.jpg&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3&gt;Преимущества светодиодной лампы HP IEK® мощностью 160 Вт:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Высокая светоотдача — 125 лм/Вт.&lt;/li&gt;
+	&lt;li&gt;Световой поток: 20 000 лм.&lt;/li&gt;
+	&lt;li&gt;Цветовая температура: 6500 К.&lt;/li&gt;
+	&lt;li&gt;Диапазон рабочих температур: от —20 до +45 °С.&lt;/li&gt;
+	&lt;li&gt;Индекс цветопередачи, Rа&amp;gt;80.&lt;/li&gt;
+	&lt;li&gt;Низкий уровень пульсаций.&lt;/li&gt;
+	&lt;li&gt;Срок службы — 30 000 часов.&lt;/li&gt;
+	&lt;li&gt;Гарантия 2 года.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &amp;nbsp; Приобрести&amp;nbsp;светодиодные лампы&amp;nbsp;HP IEK&amp;nbsp;можно у нас на&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/a7a/o29jckopu08xlfnodq4epujss3oiy3hb.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>99727</Ид>
+				<Наименование>Приглашаем на Семинар &quot;Как продавать продукцию IEK® в розницу: формула успеха&quot;</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/f27/0d86fcywbnw6ahhzrmcaedps7h71rrja.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>seminar-23-11-kak-prodavat-produktsiyu-iek-v-roznitsu-formula-uspekha</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-11-22 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 21.3333px;&quot;&gt;Семинар&lt;/span&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&amp;nbsp;для руководителей и менеджеров продаж. &quot;Как продавать продукцию IEK® в розницу: формула успеха.&quot;&lt;/span&gt;&lt;/h2&gt;
+ &lt;b&gt;Уважаемые партнеры!&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ Компании РОС-Электро и IEK GROUP приглашает вас &lt;b&gt;23 ноября 2021&lt;/b&gt; г. в &lt;b&gt;Radisson Blu Hotel, зал Calipso&lt;/b&gt; на встречу по обсуждению вопросов продаж продукции IEK у Розничных клиентов и оптовиков.&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Начало встречи &lt;/b&gt;&lt;b&gt;в 9:45.&lt;/b&gt; &lt;br&gt;
+ &lt;b&gt;Место встречи &lt;/b&gt;&lt;b&gt;(г. Челябинск, ул.Труда, 179)&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;Анонс мероприятия&lt;/h3&gt;
+ &lt;b&gt;09:45 – 10:00&lt;/b&gt;&amp;nbsp; Приветственный кофе&lt;br&gt;
+ &lt;b&gt;10:00 - 11:45&amp;nbsp;&lt;/b&gt; &amp;nbsp;Продвижение продукции IEK® у клиентов (новинки 2020-2021 и фокусные продукты 2021): ОРЭ, УСПЭ&lt;br&gt;
+ &lt;b&gt;11:45 - 12:15&amp;nbsp;&lt;/b&gt; &amp;nbsp;Кофе-брейк&lt;br&gt;
+ &lt;b&gt;12:15 - 14:00&amp;nbsp;&lt;/b&gt; &amp;nbsp;Продвижение продукции IEK® у клиентов (новинки 2020-2021 и фокусные продукты 2021): Светотехника , ITK&lt;br&gt;
+ &lt;b&gt;14:00 - 15:00&lt;/b&gt;&amp;nbsp; &amp;nbsp;Обед&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;360&quot; alt=&quot;лого5555554.jpg&quot; src=&quot;/upload/medialibrary/38b/xayv2ap7vs1bacz4d5eu88pbezzj6wz5.jpg&quot; height=&quot;239&quot; title=&quot;лого5555554.jpg&quot;&gt;&amp;nbsp;&lt;img width=&quot;410&quot; alt=&quot;DSC_5814.jpg&quot; src=&quot;/upload/medialibrary/8f5/cykxqs08ew3bq9m31kap4wrefx024bcp.jpg&quot; height=&quot;239&quot; title=&quot;DSC_5814.jpg&quot;&gt;&amp;nbsp;&lt;img width=&quot;360&quot; alt=&quot;лого555555435.jpg&quot; src=&quot;/upload/medialibrary/98a/ax9gbkr24aflinlnzg3c2216a3d908ol.jpg&quot; height=&quot;239&quot; title=&quot;лого555555435.jpg&quot;&gt;&lt;br&gt;
+&lt;h3&gt;Самых активных клиентов ждет &lt;b style=&quot;color: #555555;&quot;&gt;ПОДАРОК от IEK GROUP&lt;/b&gt;&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;3 комплекта POSm для оформления экспозиции по Светотехнике&lt;/li&gt;
+	&lt;li&gt;
+	2 комплекта POSm для оформления экспозиции шоу-рума&lt;/li&gt;
+	&lt;li&gt;
+	ПОБЕДИТЕЛИ викторины, занявшие 1 и 2 места, получают набор сувениров под акцию для покупателей&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;291&quot; alt=&quot;лого2.jpg&quot; src=&quot;/upload/medialibrary/0e8/lt4bms9on2pk72ehokkduyp6upji1sxi.jpg&quot; height=&quot;307&quot; title=&quot;лого2.jpg&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;400&quot; alt=&quot;лого34.jpg&quot; src=&quot;/upload/medialibrary/027/8z8fgdazekwgaatyexxhgsqx0mr1y1bu.jpg&quot; height=&quot;159&quot; title=&quot;лого34.jpg&quot;&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Обязательная регистрация на семинар, которую можно пройти по &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScrt6qfOXFhzlZpRRTbPb9p6R2nPJyhxAncgVr10gmg1VnOWA/viewform&quot;&gt;ссылке&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+ Ссылка на &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScrt6qfOXFhzlZpRRTbPb9p6R2nPJyhxAncgVr10gmg1VnOWA/viewform&quot;&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;регистрацию&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/a&gt; или с использованием QR-кода&lt;br&gt;
+ &amp;nbsp;&lt;img width=&quot;160&quot; alt=&quot;лого56.jpg&quot; src=&quot;/upload/medialibrary/866/43n6er2gahg96w0eh9ueewo7x623psmu.jpg&quot; height=&quot;163&quot; title=&quot;лого56.jpg&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/2dd/lzk1ewy2b6lpxv4zgjvz48pgtaf2c1td.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>99767</Ид>
+				<Наименование>Светодиодные прожекторы цветного свечения TDM</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/7a5/8zya2j1yf3fjf993yfixqre9x6wm155w.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>svetodiodnye-prozhektory-tsvetnogo-svecheniya-tdm</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-11-25 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Сообщаем&amp;nbsp;о расширении ассортимента TDM серии Народная и о поступлении на склад светодиодных прожекторов СДО-04 цветного свечения.&lt;br&gt;
+ &amp;nbsp;&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Применение прожекторов серии СДО-04:&lt;/span&gt;&lt;/h3&gt;
+ • Архитектурная подсветка фасадов зданий и сооружений.&lt;br&gt;
+ • Подсветка рекламных стендов, щитов, витрин.&lt;br&gt;
+ • Подсветка деревьев, колонн, памятников.&lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Материалы и конструкция:&lt;/span&gt;&lt;/h3&gt;
+ • Корпус изготовлен из литого под давлением алюминиевого сплава и покрыт порошковой краской.&lt;br&gt;
+ • Рассеиватель – закаленное стекло высокой пропускной способности.&lt;br&gt;
+ • Источник света – светодиоды типа SMD.&lt;br&gt;
+ • Источник питания интегрирован в светодиодный модуль.&lt;br&gt;
+ • Материал отражателя – пластик.&lt;br&gt;
+ • 3-х жильный соединительный кабель.&lt;br&gt;
+ • Уплотнитель – силикон.&lt;br&gt;
+ • Металлическое поворотное крепление.&lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Преимущества:&lt;/span&gt;&lt;/h3&gt;
+ • 3 варианта цвета свечения (красный, зелёный, синий).&lt;br&gt;
+ • Диапазон рабочих температур от -30 до +50 °С.&lt;br&gt;
+ • Степень защиты от воздействий окружающей среды IP65.&lt;br&gt;
+ • Высокое качество освещения.&lt;br&gt;
+ • Бесшумная работа.&lt;br&gt;
+ • Быстрое включение.&lt;br&gt;
+ • Высокая механическая прочность.&lt;br&gt;
+ • Не содержит вредных веществ.&lt;br&gt;
+ • Не требует специальной утилизации.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/7a5/1l9l0laalknyxxw4xuiice32heg05n8f.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>99792</Ид>
+				<Наименование>Итоги семинара &quot;Как продавать продукцию IEK® в розницу: формула успеха&quot;</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>itogi-na-seminara-kak-prodavat-produktsiyu-iek-v-roznitsu-formula-uspekha</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-11-29 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;23 ноября 2021 года в Челябинске состоялся семинар для руководителей и менеджеров продаж, организованный IEK GROUP при поддержке компании РОС-Электро. На бизнес встрече обсуждались вопросы продвижения и продаж&amp;nbsp;продукции IEK у розничных и оптовых клиентов.&lt;/span&gt;&lt;/h2&gt;
+ &lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;img width=&quot;446&quot; alt=&quot;фото2.jpg&quot; src=&quot;/upload/medialibrary/f8b/s0qop54cv75cakn5uuytz3fmz82kmli7.jpg&quot; height=&quot;343&quot; title=&quot;фото2.jpg&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;img width=&quot;450&quot; alt=&quot;фото5.jpg&quot; src=&quot;/upload/medialibrary/b97/ajvsgwq0gg7vjt3m5yu43usxjg9g8j89.jpg&quot; height=&quot;343&quot; title=&quot;фото5.jpg&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;img width=&quot;347&quot; alt=&quot;фото.jpg&quot; src=&quot;/upload/medialibrary/061/ifqovxahy5q3ybx6om4n7tricbxuke8j.jpg&quot; height=&quot;343&quot; title=&quot;фото.jpg&quot;&gt;&lt;br&gt;
+ &lt;/span&gt;
+&lt;p&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 В первой половине мероприятия специалисты IEK GROUP рассказали о новинках продукции IEK® 2020-2021 года. &amp;nbsp;Участникам были продемонстрированы особенности использования специализированного оборудования распределения энергии IEK для жилищной и административной отросли. Во второй части встречи обсуждались фокусные продукты 2021 года: светотехника IEK и новинки телекоммуникационного оборудования ITK.
+&lt;/p&gt;
+&lt;p&gt;
+	 Встречу завершил розыгрыш призов среди гостей мероприятия: комплекты POSm материалов для оформления экспозиции по светотехнике и наборы брендовых сувениров.
+&lt;/p&gt;
+&lt;p&gt;
+	 Мероприятие посетили более 30 представителей розничной и оптовой торговли – руководители, менеджеры, продавцы, а также специалисты монтажных организаций.
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;img width=&quot;389&quot; alt=&quot;фото3.jpg&quot; src=&quot;/upload/medialibrary/37c/hqma1ke1vry6au9zmw392dskufzbzmq3.jpg&quot; height=&quot;272&quot; title=&quot;фото3.jpg&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;img width=&quot;410&quot; alt=&quot;DSC_5948_DxO.jpg&quot; src=&quot;/upload/medialibrary/469/a3potv8c5f1jjtvekka4qsmfhhaou4lt.jpg&quot; height=&quot;272&quot; title=&quot;DSC_5948_DxO.jpg&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;img width=&quot;454&quot; alt=&quot;фото6.jpg&quot; src=&quot;/upload/medialibrary/578/160rr0ohrbbwj5q1kzmpqvvahmqpqate.jpg&quot; height=&quot;272&quot; title=&quot;фото6.jpg&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 Благодарим наших партнеров IEK и филиал компании «РОС-электро» в Челябинске за активную работу.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	 До новых встреч!
+&lt;/p&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/5b3/7ym02mlmk10290d1jvtv25dc3hfdf24g.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>99816</Ид>
+				<Наименование>Вебинар компании Энергомера: «Федеральный закон №522, соответствие продукции ТМ &quot;Энергомера&quot; ПП №890»</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/4c9/co4imve6snf3alpnnnthxru6qi43tw4f.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>vebinar-kompanii-energomera-federalnyy-zakon-522-sootvetstvie-produktsii-tm-energomera-pp-890</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-12-06 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;span style=&quot;font-size: 16pt;&quot;&gt;Уважаемые клиенты!&lt;/span&gt;&lt;br&gt;
+ &lt;br&gt;
+ Наш партнер, компания «Энергомера» приглашает&amp;nbsp;посетить бесплатный вебинар «Федеральный закон №522, соответствие продукции ТМ &quot;Энергомера&quot; ПП №890». &lt;br&gt;
+ &lt;br&gt;
+ В рамках вебинара будет обсуждаться вступивший в силу ФЗ №522, представители компании&amp;nbsp;расскажут о соответствии продукции ТМ &quot;Энергомера&quot; техническим требованиям ПП№890.&lt;br&gt;
+&lt;blockquote&gt;
+	 Начиная с 1.07.2020 года начинают поэтапно вступать в силу корректировки, вносимые Федеральным законом №522-ФЗ «О внесении изменений в отдельные законодательные акты Российской Федерации в связи с развитием систем учета электрической энергии (мощности) в Российской Федерации», получившим в отрасли негласное название «Закон об интеллектуальном учете».&lt;br&gt;
+	 В рамках этого закона вводится понятие «интеллектуальной системы учета электрической энергии (мощности)» и регламентируются правила организации учета электроэнергии на розничных рынках и в целях оказания коммунальных услуг по электроснабжению.
+&lt;/blockquote&gt;
+ &lt;br&gt;
+ Дата проведения вебинара: &lt;b&gt;08 декабря 2021 в 12:00 ч.&lt;/b&gt;&lt;br&gt;
+ Продолжительность: &lt;b&gt;1 час.&lt;/b&gt;&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Записаться на вебинар можно на сайте компании «Энергомера»&lt;/span&gt;&lt;/h3&gt;
+ &amp;nbsp;&lt;a href=&quot;http://www.energomera.ru/ru/support/seminar&quot;&gt;http://www.energomera.ru/ru/support/seminar&lt;/a&gt;.&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/366/a60zj14ilppbdmmaeauo7ww2nwxdbmat.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:291&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:217}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:291&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:217}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>99858</Ид>
+				<Наименование>Сертификация огнестойких кабельных линий (IEK GOST cabeline FR)</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>sertifikatsiya-ognestoykikh-kabelnykh-liniy-iek-gost-cabeline-fr</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-12-03 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;В ноябре 2021 года&amp;nbsp;компании ИЭК Холдинг (IEK) был выдан сертификат на огнестойкие кабельные линии (ОКЛ) и электропроводки систем противопожарной защиты, включающих в себя: огнестойкий кабель производства ООО &quot;ГОСТКАБЕЛЬ&quot;и кабеленесущие системы производства ООО &quot;ИЭК ХОЛДИНГ&quot;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Заявленная продукция успешно прошла лабораторные испытания, анализу подверглись следующие образцы:&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Трубы гибкие гофрированные из поливинилхлорида&lt;/li&gt;
+	&lt;li&gt;Трубы гладкие жестких из поливинилхлорида&lt;/li&gt;
+	&lt;li&gt;Системы кабель каналов из поливинилхлорида серии ЭЛЕКОР, ECOLINE, ПРАЙМЕР&lt;/li&gt;
+	&lt;li&gt;Металлорукав&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Трубы сварные электросварные прямошовные круглые&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Коробки распаячные огнестойкие ПС&lt;/li&gt;
+	&lt;li&gt;
+	Системы кабельных лотков металлические&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Системы кабельных лестниц металлические&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Лотки металлические проволочные&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; align=&quot;center&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;a href=&quot;/upload/medialibrary/004/ilqjywvbrjv2eba72w59lgteyzzhb458.jpg&quot;&gt;&lt;img width=&quot;290&quot; alt=&quot;iek_page-0001 (1).jpg&quot; src=&quot;/upload/medialibrary/004/ilqjywvbrjv2eba72w59lgteyzzhb458.jpg&quot; height=&quot;410&quot; title=&quot;iek_page-0001 (1).jpg&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;a href=&quot;/upload/medialibrary/259/1ln3swy3v7ea2dusp3ykiy7n704kg3w8.jpg&quot;&gt;&lt;img width=&quot;290&quot; alt=&quot;iek_page-0001 (2).jpg&quot; src=&quot;/upload/medialibrary/259/1ln3swy3v7ea2dusp3ykiy7n704kg3w8.jpg&quot; height=&quot;410&quot; title=&quot;iek_page-0001 (2).jpg&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;a href=&quot;/upload/medialibrary/812/mf71ki4n1pzgiklmov7fs23agquodxux.jpg&quot;&gt;&lt;img width=&quot;290&quot; alt=&quot;iek_page-0001 (3).jpg&quot; src=&quot;/upload/medialibrary/812/mf71ki4n1pzgiklmov7fs23agquodxux.jpg&quot; height=&quot;410&quot; title=&quot;iek_page-0001 (3).jpg&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;a href=&quot;/upload/medialibrary/401/wldtmdl5eanhu9zzoa0cpag2polo3lg9.jpg&quot;&gt;&lt;img width=&quot;290&quot; alt=&quot;iek_page-0001 (4).jpg&quot; src=&quot;/upload/medialibrary/401/wldtmdl5eanhu9zzoa0cpag2polo3lg9.jpg&quot; height=&quot;410&quot; title=&quot;iek_page-0001 (4).jpg&quot;&gt;&lt;/a&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/0a1/nj9zggdjh9cwzecx88gi01s0kird457m.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:255}},{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:835}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:255}},{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:835}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>102654</Ид>
+				<Наименование>График работы офисов в Екатеринбурге 17 декабря</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>grafik-raboty-ros-elektro-v-ekaterinburge-17-dekabrya</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-12-15 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Уважаемые&amp;nbsp;клиенты!&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+&lt;div&gt;
+	 Информируем вас о том, что 17 декабря 2021г. офисы продаж РОС-Электро в Екатеринбурге работают по измененному графику:
+&lt;/div&gt;
+ &lt;br&gt;
+ Саранинский, д.7 - с &lt;b&gt;8.00 до 15.00&lt;/b&gt; ч&lt;br&gt;
+ Волгоградская, д.18 - с &lt;b&gt;8.00 до 13.00&lt;/b&gt; ч.&lt;br&gt;
+&lt;blockquote&gt;
+	 Вы можете связаться с нами по телефонам:&lt;br&gt;
+	 +7 (343) 278-27-37&lt;br&gt;
+	 +7 (343) 217-03-99
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/b90/v7f7kuozrb9voj7wfmbce1dhoxcpgpmd.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>[]</Значение>
+						<ЗначениеСвойства>
+							<Значение>[]</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>104806</Ид>
+				<Наименование>Поздравляем работников энергетической промышленности!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/697/u3rq3f42cg7lt3wjbruukjqs12yrh4ce.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pozdravlyaem-rabotnikov-energeticheskoy-promyshlennosti</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-12-22 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h3&gt;Дорогие энергетики!&amp;nbsp;&lt;/h3&gt;
+ Миллионы лампочек по всей стране светят нам каждый день, благодаря вашему высокому профессионализму, терпению и труду. Вы приносите тепло и свет в наши дома, обеспечиваете комфорт и уют.&lt;br&gt;
+ &lt;br&gt;
+ Без результатов вашего труда уже невозможно представить нашу повседневную жизнь, а также развитие промышленности и экономики в целом. Спасибо вам за ответственность и профессионализм!&lt;br&gt;
+&lt;blockquote&gt;
+	 Желаем безграничных возможностей в любимой сфере,&lt;br&gt;
+	 огромных перспектив развития и совершенствования,&lt;br&gt;
+	 бесперебойной работы всех важных линий и объектов энергоснабжения.&lt;br&gt;
+	 Личного счастья, здоровья и успехов!
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/292/ho03u9jj9e2bibu08cggepabir4ozuqk.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>107490</Ид>
+				<Наименование>Поздравляем с наступающим Новым годом!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/249/itzem3vde4rg8a1x0ewbubamqr2z5dlp.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pozdravlyaem-s-nastupayushchim-novym-godom</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2021-12-30 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h3&gt;&lt;span style=&quot;font-size: 1.6em; color: #2f3192;&quot;&gt;Дорогие партнеры и клиенты!&amp;nbsp;&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;
+&lt;h3&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Поздравляем с Новым годом!&amp;nbsp;&lt;/span&gt;&lt;/h3&gt;
+ &lt;br&gt;
+ Пусть осуществится все задуманное и запланированное, а грядущий год подарит море позитива, жизненной энергии, вдохновения, любви и творчества, стабильности и надежности, благополучия и комфорта!&lt;br&gt;
+ &lt;br&gt;
+ Искренне ваш, коллектив РОС-Электро&lt;br&gt;
+ &lt;br&gt;
+&lt;blockquote&gt;
+ &lt;b&gt;График работы офисов:&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+	 с 31 декабря по 9 января выходные дни.&lt;br&gt;
+	 с 10 января мы работаем в обычном режиме.
+&lt;/blockquote&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/21c/o7r1hewozlpjvdqwsgul3yxoth0yqhuy.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>108297</Ид>
+				<Наименование>Энергоэффективная светотехника Gauss</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/2d3/88pa7ltg0mztznnr1uvromd3ghem8ne6.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>energoeffektivnaya-svetotekhnika-gauss</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-01-12 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Светотехника gauss в ассортименте РОС-Электро.&lt;/span&gt;&lt;/h2&gt;
+ &lt;br&gt;
+ Gauss — это российский бренд светотехники, входящий в группу компаний «Вартон».&lt;br&gt;
+ На сегодняшний день торговая марка gauss — это более 500 современных светодиодных декоративных, софитных и ламп общего назначения, компактных люминесцентных ламп, светодиодной ленты, комплектующих и разнообразных аксессуаров — настольных светильников, туристических и карманных фонарей и др.&lt;br&gt;
+ &lt;br&gt;
+ Вся готовая продукция марки gauss проходит строгий контроль качества в независимых лабораториях Европы, Китая и России.&lt;br&gt;
+ Благодаря современным технологиям производства, компания Gauss создает высококачественное осветительное оборудование, которое соответствует всем требованиям электробезопасности и электромагнитной совместимости, а также установленным стандартам качества. Разнообразие современных дизайнерских и технических решений торговой марки Gauss позволяет подобрать вариант для любых задач и проектов.&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;На сайте представлены различные виды&amp;nbsp;светотехники gauss:&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Светодиодные лампы&lt;/li&gt;
+	&lt;li&gt;
+	Промышленные светильники&lt;/li&gt;
+	&lt;li&gt;
+	Бытовые светильники&lt;/li&gt;
+	&lt;li&gt;
+	LED ленты&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;
+	Прожекторы&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/251/g1e2s944w0ko7a8oz7ndmqkl92psfr04.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:935}}}}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:935}}}}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>204904</Ид>
+				<Наименование>Министр промышленности и науки Свердловской области впервые посетил завод ГОСТКАБЕЛЬ</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>ministr-promyshlennosti-i-nauki-sverdlovskoy-oblasti-vpervye-posetil-zavod-gostkabel</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-01-18 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;p&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 16 декабря 2021 г.&amp;nbsp;Министр&amp;nbsp;Пересторонин Сергей Валентинович впервые&amp;nbsp;посетил с рабочим визитом&amp;nbsp;территорию завода&amp;nbsp;ГОСТКАБЕЛЬ для ознакомления с возможностями производства кабельной&amp;nbsp;продукции на предприятии.
+&lt;/p&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0181.jpg&quot; src=&quot;/upload/medialibrary/d92/35rg5nutqvjza1bmc40k8l0nwotv8hct.jpg&quot; height=&quot;342&quot; title=&quot;Ilia Novikov-0181.jpg&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0197.jpg&quot; src=&quot;/upload/medialibrary/f84/lpw5tuw3mdq0km1lk8svvc517jy6t1j0.jpg&quot; height=&quot;341&quot; title=&quot;Ilia Novikov-0197.jpg&quot;&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 В рамках визита на площадке завода состоялась рабочая встреча &amp;nbsp;министра С. Пересторонина с председателем EL-Комитета НОПСМ Дмитрием Зориным, а также собственниками компаний TDM ELECTRIC Вадимом Морозовым&amp;nbsp; и ООО «ГОСТКАБЕЛЬ» Денисом Логиновских.
+&lt;/p&gt;
+&lt;p&gt;
+	 Главной темой встречи стал вопрос&amp;nbsp; противодействия распространению кабельного фальсификата и недопущению его поставок на строительные объекты региона. Участниками было подчеркнуто, что в связи с&amp;nbsp; высоким&amp;nbsp; спросом&amp;nbsp; и удорожанием&amp;nbsp; строительных&amp;nbsp; материалов, стал&amp;nbsp; необходим&amp;nbsp; усиленный&amp;nbsp; входной контроль качества кабельно-проводниковой продукции используемой при строительстве объектов.
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0072.jpg&quot; src=&quot;/upload/medialibrary/9ac/0f8vaxw05lrmwr81fid1enqd135c7kwi.jpg&quot; height=&quot;342&quot; title=&quot;Ilia Novikov-0072.jpg&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0107.jpg&quot; src=&quot;/upload/medialibrary/7c7/8z49c3pt51pgfhs2oumecehvt45ke2ss.jpg&quot; height=&quot;342&quot; title=&quot;Ilia Novikov-0107.jpg&quot;&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 Участникам встречи, была проведена презентация&amp;nbsp; производственных мощностей предприятия и продемонстрирован процесс производства кабеля. Представителями завода были озвучены перспективы развития&amp;nbsp; предприятия&amp;nbsp; на ближайший год. Руководство ГОСТКАБЕЛЬ планирует внедрение новых&amp;nbsp; программ&amp;nbsp; по совершенствованию технологического процесса, увеличению объемов производства кабельной продукции и расширению номенклатуры.
+&lt;/p&gt;
+&lt;p&gt;
+	 На настоящий момент завод ГОСТКАБЕЛЬ выпускает порядка 700 номенклатурных позиций кабельной продукции. Суммарная площадь производственных мощностей предприятия более&amp;nbsp; 3800 кв.м. На территории предприятия располагается собственная испытательная лаборатория, которая позволяет&amp;nbsp; подтверждать качество выпускаемой&amp;nbsp; продукции и безопасность в различных условиях.
+&lt;/p&gt;
+&lt;p&gt;
+	 &amp;nbsp;
+&lt;/p&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0159.jpg&quot; src=&quot;/upload/medialibrary/2fb/s1wzeyhed2xwhmmskv2qhgpgb6jq34ys.jpg&quot; height=&quot;342&quot; title=&quot;Ilia Novikov-0159.jpg&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;512&quot; alt=&quot;Ilia Novikov-0143.jpg&quot; src=&quot;/upload/medialibrary/481/ag2yaac91qf8c7a5nafpr8gav6umt3ai.jpg&quot; height=&quot;342&quot; title=&quot;Ilia Novikov-0143.jpg&quot;&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	 По итогам визита министр дал высокую оценку организации кабельного производства&amp;nbsp; предприятия ГОСТКАБЕЛЬ&amp;nbsp; и отметил качество выпускаемой кабельной продукции.
+&lt;/p&gt;
+&lt;p&gt;
+	 Компания РОС-Электро является официальным дилером &lt;a href=&quot;https://ros-elektro.ru/info/brands/zavod_gostkabel/&quot;&gt;ООО &quot;ГОСТКАБЕЛЬ&quot;&lt;/a&gt;. Наша компания закупает продукцию напрямую с завода, что позволяет осуществлять стабильные поставки,&amp;nbsp;поддерживать оптимальные складские запасы кабельной продукции, а также предлагать своим клиентам максимально доступный уровень цен.&lt;br&gt;
+&lt;/p&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/6c2/miuc1pd13814u4npwr34a064qexdhivk.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:837}}}}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:437&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:837}}}}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>210157</Ид>
+				<Наименование>Декоративные накладные светильники ДПБ 2001–2012</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/424/zu30104fk9ryef78f8b0t7irm0w010mm.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>dekorativnye-nakladnye-svetilniki-dpb-2001-2012</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-01-26 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>LED-светильники ДПБ&amp;nbsp;2001–2012 – практичное и экономичное решение для общего и местного освещения жилых помещений. Варианты дизайна рассеивателей позволяют вписать светильники этой серии в любой интерьер.&lt;br&gt;
+ &lt;br&gt;
+ Светодиодные светильники серии ДПБ 2000 IEK® имеют длительный срок службы, не требуют замены источников света и дополнительных эксплуатационных расходов. Обеспечивают комфортное освещение для работы и отдыха.&amp;nbsp;&lt;br&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;
+ &lt;br&gt;
+&lt;/p&gt;
+&lt;h3&gt;Преимущества декоративных накладных светильников ДПБ 2001-2012 IEK:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Равномерная засветка обеспечивается вторичной оптикой (для моделей с рассеивателем &quot;Купол&quot;).&lt;/li&gt;
+	&lt;li&gt;Надежный драйвер: длительный срок службы и высокие эксплуатационные характеристики.&lt;/li&gt;
+	&lt;li&gt;Простой и удобный монтаж (крепежные элементы в комплекте).&lt;/li&gt;
+	&lt;li&gt;Экономия электроэнергии — до 80 %.&lt;/li&gt;
+	&lt;li&gt;Гарантия 2 года.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;h3&gt;Технические характеристики:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Потребляемая мощность: 12, 18 Вт.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Номинальное напряжение: 198-253 В.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Цветовая температура: 4000 К.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Степень защиты от влаги и пыли: IP20.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Диапазон рабочих температур: от 0 до +40 °С.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Коэффициент мощности, PF: &amp;gt;0,5.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Коэффициент пульсации, IRF: &amp;lt;5%.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Класс защиты от поражения электрическим током: I.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;Срок службы: 30 000 часов.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &amp;nbsp; Приобрести декоративные накладные светильники ДПБ 2001–2012. можно у нас на&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/d7b/9rjleakvzcsdrxd09a5zy5aka7jbvlti.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:5469}},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;iek&quot;}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:5469}},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;iek&quot;}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>211112</Ид>
+				<Наименование>Приглашаем посетить стенд завода «ГОСТКАБЕЛЬ» на выставке Cabex-2022</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/e76/3c1uknscjgpviny4vtbbnaesfpyxqw9i.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>priglashaem-posetit-stend-zavoda-gostkabel-na-vystavke-cabex-2022</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-03-04 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Cabex 20-я Юбилейная международная выставка кабельно-проводниковой продукции 15 – 17 марта 2022.&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Уважаемые партнеры! Завод «ГОСТКАБЕЛЬ» примет участие на выставке Cabex-2022 и приглашает вас посетить стенд № А 207&lt;/span&gt;&lt;/h3&gt;
+ Даты проведения: &lt;b&gt;15-17 марта 2022 года.&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;Москва, ЦВК «Экспоцентр», Павильон 1.&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ Время работы выставки:&lt;br&gt;
+ &lt;b&gt;15 марта 10:00–18:00&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;
+16 марта 10:00–18:00&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;
+17 марта 10:00–16:00&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ Для бесплатного посещения выставки получите электронный билет на сайте &lt;a href=&quot;http://www.cabex.ru&quot;&gt;&lt;u&gt;www.cabex.ru&lt;/u&gt;&lt;/a&gt;, указав промо-код &lt;b&gt;gostcable22.&lt;/b&gt;&lt;br&gt;
+ Вы также можете переслать это приглашение своим коллегам и бизнес-партнерам. Количество билетов, которые можно получить по указанному промокоду– не ограничено.&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Подробная схема ЦВК «Экспоцентр» и расположение стенда завода «ГОСТКАБЕЛЬ&lt;/span&gt;»&lt;/h3&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;Приглашение.jpg&quot; src=&quot;/upload/medialibrary/9aa/m90rlqmlh5yg6l6d7l22e1xfp462p2xw.jpg&quot; height=&quot;1024&quot; title=&quot;Приглашение.jpg&quot;&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;br&gt;
+ &lt;/span&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Почему стоит посетить выставку Cabex 2022:&lt;/span&gt;&lt;/h3&gt;
+ - широкий выбор кабеля, проводов, кабельной арматуры, аксессуаров, электромонтажных и электротехнических изделий;&lt;br&gt;
+ - более 140 отечественных и зарубежных компаний-участников;&lt;br&gt;
+ - новинки российского рынка кабельно-проводниковой продукции;&lt;br&gt;
+ - прямой контакт с руководством и техническими специалистами компаний-участников;&lt;br&gt;
+ - насыщенная деловая программа с авторитетными спикерами и обилием практической информации.&lt;br&gt;
+ &lt;br&gt;
+ Изучить программу выставки и список участников, а также узнать другую полезную информацию вы можете на сайте &lt;a href=&quot;https://www.cabex.ru/ru-RU/&quot;&gt;&lt;u&gt;https://www.cabex.ru/ru-RU/&lt;/u&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/a84/u1seg5krbw7bbkw3ykcgc6hrnp4o8p29.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>211130</Ид>
+				<Наименование>15 марта стартовала 20-я Юбилейная международная выставка CABEX-2022</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/445/ep8ht9cmozkst2xnr384q5zrk8gom0j8.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>15-marta-startovala-20-ya-yubileynaya-mezhdunarodnaya-vystavka-cabex-2022</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-03-16 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;div&gt;
+	 Официальная церемония открытия прошла в праздничной атмосфере. Торжественный момент открыли почётные гости выставки:&lt;br&gt;
+ &lt;br&gt;
+&lt;/div&gt;
+ — Грибов Е.Е., директор департамента машиностроения для ТЭК Министерства промышленности и торговли РФ&lt;br&gt;
+ — Мещанов В.Г.,генеральный директор ОАО «ВНИИКП»&lt;br&gt;
+ — Третьяков М.В., президент международной ассоциации «Электрокабель»&lt;br&gt;
+ — Селиванов С.В., заместитель генерального директора АО «Экспоцентр»&lt;br&gt;
+ &lt;br&gt;
+ Первый день работы выставки Cabex проходит в атмосфере активного делового общения: для участников и посетителей он наполнен бизнес-контактами, долгожданными прямыми переговорами, презентациями новинок кабельно-проводниковой продукции, интересными и полезными мероприятиями деловой программы.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Даты и время проведения: 16 марта: 10:00 – 18:00, 17 марта: 10:00 – 16:00&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Место проведения: Москва, ЦВК «Экспоцентр», Павильон 1&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ Завод «ГОСТКАБЕЛЬ» приглашает гостей выставки посетить наш стенд, будем рады встречи и общению с вами!&lt;br&gt;
+ &lt;br&gt;
+ &amp;nbsp;&amp;nbsp;&lt;br&gt;
+&lt;table cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; align=&quot;center&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;
+		 &amp;nbsp;&lt;img width=&quot;307&quot; alt=&quot;mobile_file_2022-03-16_06-17-21 (2).jpg&quot; src=&quot;/upload/medialibrary/913/4t74ty1kwvnii6kblhvif98uz17y0777.jpg&quot; height=&quot;410&quot; title=&quot;mobile_file_2022-03-16_06-17-21 (2).jpg&quot;&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp;
+	&lt;/td&gt;
+	&lt;td&gt;
+		 &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;img width=&quot;307&quot; alt=&quot;mobile_file_2022-03-16_06-17-21 (1).jpg&quot; src=&quot;/upload/medialibrary/c08/335scfxpski9ldw3q6bnfkx73316np76.jpg&quot; height=&quot;410&quot; title=&quot;mobile_file_2022-03-16_06-17-21 (1).jpg&quot;&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;br&gt;
+ Для бесплатного посещения выставки получите электронный билет на сайте &lt;a href=&quot;http://www.cabex.ru&quot;&gt;&lt;u&gt;www.cabex.ru&lt;/u&gt;&lt;/a&gt;, указав промо-код &lt;b&gt;gostcable22.&lt;/b&gt;&lt;br&gt;
+ Вы также можете переслать это приглашение своим коллегам и бизнес-партнерам. Количество билетов, которые можно получить по указанному промокоду– не ограничено.</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/bd3/foyjxw7ibz9eg630dpgd17o7hq0f1vl2.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>211867</Ид>
+				<Наименование>Итоги 20-й Международной выставки Cabex-2022</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>itogi-20-y-mezhdunarodnoy-vystavki-cabex-2022</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-03-21 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Выставка в 2022 году отметила свой юбилей уже в 20-й раз.&lt;br&gt;
+ Более 130 производителей и поставщиков продемонстрировали посетителям выставки широкий выбор кабеля, проводов, кабельных аксессуаров, электромонтажных и электротехнических изделий, а также материалов и оборудования.&lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;450&quot; alt=&quot;IMG_9578_.jpg&quot; src=&quot;/upload/medialibrary/23d/493v7dmus5n73djhmr09lsc7q94xbodk.jpg&quot; height=&quot;338&quot; title=&quot;IMG_9578_.jpg&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img width=&quot;504&quot; alt=&quot;IMG_4021.JPG&quot; src=&quot;/upload/medialibrary/141/1t5unw497d11fquen5v06j9agna4gxle.JPG&quot; height=&quot;336&quot; title=&quot;IMG_4021.JPG&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ В числе посетителей Cabex – руководители и специалисты предприятий специализированной торговли, строительно-монтажных организаций, компаний-конечных заказчиков кабельно-проводниковой продукции, отвечающие за выбор кабеля и проводов, а также сопутствующего оборудования и изделий.&lt;br&gt;
+ &lt;br&gt;
+ Завод «ГОСТКАБЕЛЬ» традиционно принимает участие в Международной выставке «Cabex». Технические специалисты завода работали на стенде, консультировали посетителей, обменивались профессиональным опытом с представителями предприятий.&lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;307&quot; alt=&quot;-1x-1x80_IMG-20220316-WA0002.jpg&quot; src=&quot;/upload/medialibrary/450/gz0lqd239i3t79z81aaplafhemq29k7a.jpg&quot; height=&quot;410&quot; title=&quot;-1x-1x80_IMG-20220316-WA0002.jpg&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;img width=&quot;307&quot; alt=&quot;-1x-1x80_IMG-20220316-WA0004.jpg&quot; src=&quot;/upload/medialibrary/de1/zombcqrep0w7orgbwt3f7c2qmlkxcfbv.jpg&quot; height=&quot;410&quot; title=&quot;-1x-1x80_IMG-20220316-WA0004.jpg&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;img width=&quot;307&quot; alt=&quot;-1x-1x80_IMG-20220316-WA0005.jpg&quot; src=&quot;/upload/medialibrary/283/r2z0wpk9hwdtjswj2id8estfvhy1l32h.jpg&quot; height=&quot;410&quot; title=&quot;-1x-1x80_IMG-20220316-WA0005.jpg&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ У посетителей и участников выставки была возможность:&lt;br&gt;
+ • Провести личные переговоры с руководством кабельных компаний из различных регионов.&lt;br&gt;
+ • Выбрать поставщика кабельно-проводниковой продукции в соответствии со своими задачами.&lt;br&gt;
+ • Узнать о перспективных технологиях и тенденциях кабельного рынка на мероприятиях деловой программы.&lt;br&gt;
+ &lt;br&gt;
+ Церемония прошла в праздничной атмосфере. Торжественный момент открыли почётные гости выставки:&lt;br&gt;
+ - Грибов Е.Е., директор департамента машиностроения для ТЭК Министерства промышленности и торговли РФ&lt;br&gt;
+ - Мещанов В.Г.,генеральный директор ОАО «ВНИИКП»&lt;br&gt;
+ - Третьяков М.В., президент международной ассоциации «Электрокабель»&lt;br&gt;
+ - Селиванов С.В., заместитель генерального директора АО «Экспоцентр»&lt;br&gt;
+ &lt;br&gt;
+ В первый день прошла дискуссия «Современные угрозы и вызовы для кабельной промышленности».&lt;br&gt;
+ Участники обсудили с чем столкнется кабельная промышленность, производители и потребители в 2022 году, какие новые политические и экономические тренды России и мира будут влиять на отрасль в настоящем году.&lt;br&gt;
+ &lt;br&gt;
+ В заключительный день работы выставки прошла технологическая сессия «Кабельная промышленность: законодательные изменения и современные возможности производства».&lt;br&gt;
+ &lt;br&gt;
+ Все три дня работы выставки сопровождались насыщенной деловой программой. Среди тем, которые обсуждали эксперты: направления развития российского кабельного рынка, передовые технологии производства кабельно-проводниковой продукции, опыт применения кабеля и проводников в ключевых отраслях экономики.&lt;br&gt;
+ &lt;br&gt;
+ Благодарим гостей выставки и деловых партнеров за приятное общение и плодотворную работу. До скорых встреч!&lt;br&gt;
+&lt;div&gt;
+&lt;/div&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/e1f/kti479wchgiosyk5jas78vt95gj1sjad.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>215139</Ид>
+				<Наименование>РОС-Электро отмечает в этом году свое 20-летие!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/044/nwstut1ffji5of7shxju9adf4t38tijv.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>ros-elektro-otmechaet-v-etom-godu-svoe-20-letie</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-07-29 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Дорогие коллеги, клиенты и партнеры!&lt;/span&gt;&lt;/h2&gt;
+&lt;div&gt;
+ &lt;br&gt;
+ &lt;b&gt;Сегодня мы празднуем памятную дату - &lt;/b&gt;&lt;b&gt;20 лет со дня основания РОС-Электро.&lt;br&gt;
+ &lt;/b&gt;&lt;b&gt; &lt;/b&gt;&lt;br&gt;
+ &lt;b&gt; &lt;/b&gt;Желаем нашей компании дальнейшего процветания, а каждому из вас — здоровья, счастья, &lt;br&gt;
+	 любви, семейного достатка, удачи в работе и в жизни, больших и маленьких побед! &lt;br&gt;
+	 Пусть не покидают нас энтузиазм и силы. Только развития и достижения высот!&lt;br&gt;
+&lt;/div&gt;
+ &lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/e48/j6d1clv2mohebbovt6jgr8ar9f103k5o.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>[]</Значение>
+						<ЗначениеСвойства>
+							<Значение>[]</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>215437</Ид>
+				<Наименование>Поздравляем с Днем строителя!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/b17/56grnp85lkhsk4tymiepwm9q83n0mg0n.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pozdravlyaem-s-dnem-stroitelya</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-08-12 12:00:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;Дорогие строители,&amp;nbsp;поздравляем с профессиональным праздником!&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;
+ &lt;br&gt;
+ Вы делаете поистине бравую работу, украшая этот мир интересными сооружениями и постройками! &lt;br&gt;
+Позвольте выразить Вам благодарность за тепло и уют наших домов, за нелёгкий труд!&lt;br&gt;
+Пусть ладится работа с любым проектом и объектом, пусть удачно строятся мосты к большим успехам и заветным мечтам.&lt;br&gt;
+ Желаем вам доброй и продуктивной работы, удачи, сил и энергии!&amp;nbsp;&lt;br&gt;
+ &amp;nbsp;&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/d7e/j76t88f7k4d8fkzzstgu2fobjes5ypqc.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>[]</Значение>
+						<ЗначениеСвойства>
+							<Значение>[]</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>215697</Ид>
+				<Наименование>Магистральные кабель-каналы и аксессуары ELECOR IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/e17/m99zghdod846aq2fiqevfj8yoae46nqc.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>magistralnye-kabel-kanaly-i-aksessuary-elecor-iek</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-08-31 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;b&gt;
+&lt;h3&gt;Современное решение для оформления интерьера.&lt;/h3&gt;
+ &lt;/b&gt;
+Магистральные кабель-каналы ELECOR IEK в чёрном цвете незаменимы для интерьерных решений в тёмных тонах при прокладке электрических коммуникаций открытого типа. Данные кабель-каналы применяются в информационных, силовых и слаботочных электрических коммуникаций открытого типа в офисных и жилых помещениях, производственных и административных зданиях, медицинских и детских учреждениях при новом строительстве и при реконструкции.&amp;nbsp;Прямые секции и аксессуары производятся в России из высококачественных материалов.&lt;br&gt;
+&lt;h3&gt;Характеристики и преимущества:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Размерный ряд: 15х10 – 100х60 мм;&lt;/li&gt;
+	&lt;li&gt;
+	Материал: кабель-канал – ПВХ;&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;
+	Цвет: черный;&lt;/li&gt;
+	&lt;li&gt;
+	Высокая ударная прочность;&lt;/li&gt;
+	&lt;li&gt;
+	Произведено в России.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Применение кабель-каналов ELECOR IEK:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Обеспечение электробезопасности (дополнительная изоляция электропроводки).&lt;/li&gt;
+	&lt;li&gt;
+	Предохранение проводки от механических повреждений.&lt;/li&gt;
+	&lt;li&gt;
+	Исключение возможного пожара при коротком замыкании.&lt;/li&gt;
+	&lt;li&gt;
+	Ограничение несанкционированного доступа к проводке.&lt;/li&gt;
+	&lt;li&gt;
+	Упрощение монтажа электропроводки при строительстве и реконструкции зданий.&lt;/li&gt;
+	&lt;li&gt;
+	Обеспечение быстрого доступа к проводке в аварийной ситуации.&lt;/li&gt;
+	&lt;li&gt;
+	Возможность быстрой модернизации и дополнения проводки.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ Приобрести &lt;b&gt;магистральные кабель-каналы ELECOR IEK в черном цвете&lt;/b&gt; можно на нашем&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/dd0/qenp1eqozcpilsiwpgu4664mxfn2gmc5.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;\&quot;ЭЛЕКОР\&quot; черный&quot;}}}}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:{&quot;1&quot;:{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;\&quot;ЭЛЕКОР\&quot; черный&quot;}}}}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>216134</Ид>
+				<Наименование>Весы электронные настольные &quot;ЮНИТ&quot; и &quot;ДЕЛЬТА&quot; TDM</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/30a/jgx3m6bq205ht1a0eiaz98722j70oiqy.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>vesy-elektronnye-nastolnye-yunit-i-delta-tdm</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-09-16 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Сообщаем&amp;nbsp;о расширении ассортимента TDM серии Народная и о поступлении на склад весов электронных настольных&amp;nbsp;&quot;ЮНИТ&quot; и &quot;ДЕЛЬТА&quot;&amp;nbsp;предназначенных для измерения веса пищевых продуктов, различных веществ, ювелирных изделий и небольших предметов.
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Преимущества:&lt;/span&gt;&lt;/h3&gt;
+ &lt;b&gt;Точность измерения:&lt;/b&gt;&lt;br&gt;
+ от 0,1 г для артикула SQ4005-0002.&lt;br&gt;
+ от 1 г для артикула SQ4005-0001.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Широкий выбор единиц измерения:&lt;/b&gt;&lt;br&gt;
+ г, фунт, унция, мл воды, мл молока для артикула SQ4005-0001.&lt;br&gt;
+ г, карат, унция, тройская унция, пеннивейт, гран - для артикула SQ4005-0002.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Функция сброса веса тары.&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;Функция подсчета&lt;/b&gt; (для артикула SQ4005-0002).&lt;br&gt;
+ &lt;b&gt;Две емкости для взвешивания&lt;/b&gt; разных по объему предметов в комплекте (для арт. SQ4005-0002).&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Видеообзор весов настольных &quot;ЮНИТ&quot; и &quot;ДЕЛЬТА&quot; ТМ TDM ELECTRIC:&lt;/span&gt;&lt;/h3&gt;
+ &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/msn46nYwogY?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; title=&quot;Распаковка весов настольных &amp;quot;ЮНИТ&amp;quot; и &amp;quot;ДЕЛЬТА&amp;quot; ТМ TDM ELECTRIC&quot; и=&quot;&quot; ТМ=&quot;null&quot; tdm=&quot;&quot;&gt;
+&lt;/iframe&gt; &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/6fd/dlnod2b4i1hmx8uxoxtk40oqe9pci73w.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBElement&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:[214230,214231]}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBElement&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:[214230,214231]}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>216198</Ид>
+				<Наименование>ГОСТКАБЕЛЬ. ПРОВЕРЕНО. ВЫСШИЙ СТАНДАРТ КАЧЕСТВА</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/77d/kna5ltvzt2juwar0smzdbidovjc41eqs.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>gostkabel-provereno-vysshiy-standart-kachestva</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-09-20 15:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;div&gt;
+ &lt;b&gt;В публикациях EL-Комитета НОПСМ (Национальное объединение производителей строительных материалов и строительной индустрии) неоднократно приводились результаты мониторинга качества кабельной продукции, закупленной в 2021 году в Уральском федеральном округе. Данные результаты стали предметом особого внимания органов государственного контроля региона.&lt;br&gt;
+ &lt;/b&gt;&lt;br&gt;
+	 Так, в январе 2022 г. на заседании Комиссии по противодействию незаконному обороту промышленной продукции Свердловской области были обсуждены вопросы организации выявления на рынке кабельного фальсификата, а также поиска надежных и ответственных поставщиков кабеля в Свердловской области.&lt;br&gt;
+&lt;/div&gt;
+&lt;p&gt;
+	 По инициативе EL-Комитета НОПСМ Комиссией было принято решение о создании временной рабочей группы из числа членов Комиссии для проведения выездного обследования завода ООО «ГОСТКАБЕЛЬ». В рабочую группу вошли представители Министерства строительства и развития инфраструктуры, Министерства промышленности и науки Свердловской области, Приволжско-Уральского МТУ Росстандарта, а также ассоциации «Союз стройиндустрии Свердловской области».
+&lt;/p&gt;
+&lt;p&gt;
+	 В ходе обследования производственной площадки ООО «ГОСТКАБЕЛЬ» в г. Ревда Свердловской области членами рабочей группы были осмотрены производственные мощности предприятия, изучены применяемые технологии контроля качества выпускаемой продукции, в т. ч. проинспектирована работа отдела технического контроля.
+&lt;/p&gt;
+&lt;p&gt;
+	 Рабочей группе были продемонстрированы образцы продукции, производимой предприятием, в т. ч. кабели силовые с пластмассовой изоляцией сечением токопроводящих жил от 1,5 мм2 до 240 мм2, провода и кабели для электрических установок, а также провода неизолированные для воздушных линий электропередач.
+&lt;/p&gt;
+&lt;p&gt;
+	 Для проведения технических испытаний в аккредитованной лаборатории на производственных линиях и со склада предприятия был произведен отбор широкого ассортимента кабельной продукции ТМ ГОСТКАБЕЛЬ.
+&lt;/p&gt;
+&lt;p&gt;
+	 «По результатам обследования производственной площадки ООО «ГОСТКАБЕЛЬ» и проведения технических испытаний производимой предприятием кабельной продукции членами Комиссии сделан вывод о том, что &lt;b&gt;кабельные изделия ТМ ГОСТКАБЕЛЬ изготавливаются с использованием современного технологического оборудования и полностью соответствуют требованиям нормативно-технической документации по качеству и безопасности»,&lt;/b&gt;&amp;nbsp;– сообщила в своем выступлении на заседании Комиссии 20 июня 2022 г. заместитель руководителя Приволжско-Уральского МТУ Росстандарта С.В. Михеева.
+&lt;/p&gt;
+&lt;p&gt;
+	 По мнению С.В. Михеевой, полученные результаты испытаний позволяют рекомендовать к использованию кабельную продукцию ТМ ГОСТКАБЕЛЬ потребителям и строительными организациям Свердловской области.
+&lt;/p&gt;
+&lt;p&gt;
+	 ООО «ГОСТКАБЕЛЬ» является членом EL-Комитета НОПСМ и принимает активное участие во всех его проектах по выявлению фактов выпуска в обращение фальсифицированной кабельной продукции.
+&lt;/p&gt;
+&lt;p&gt;
+	 Результаты обследования еще раз подтвердили, что завод ГОСТКАБЕЛЬ находится на пути уверенного развития и дорожит званием надежного производителя высококачественного кабеля.
+&lt;/p&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/27a/w3pfbrdodg3167qletkw38iuekx4n4rp.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:291&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:215}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBProp:27:291&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:215}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>216331</Ид>
+				<Наименование>Светодиодные лампы GENERICA</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/37a/aj2svfrihyrvhaxnq1oq4sd7olhxuhju.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>lampy-svetodiodnye-generica</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-10-03 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Светодиодные лампы GENERICA предназначены для общего освещения общественных и жилых помещений.&lt;br&gt;
+ Отличаются высокой надежностью, эргономичностью и привлекательной ценой.&lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;Преимущества:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Высокая эффективность: 100 лм/Вт.&lt;/li&gt;
+	&lt;li&gt;
+	Индекс цветопередачи: Ra&amp;gt;80.&lt;/li&gt;
+	&lt;li&gt;
+	Отсутствие в составе вредных веществ.&lt;/li&gt;
+	&lt;li&gt;
+	Отсутствие пульсаций.&lt;/li&gt;
+	&lt;li&gt;
+	Диапазон рабочих температур: от -20 до +40°C.&lt;/li&gt;
+	&lt;li&gt;
+	Соответствие нормам ТР ТС 004/2011, ТР ТС 02/2011, ТР ТС 037/2016.&lt;/li&gt;
+	&lt;li&gt;
+	Широкий ассортимент.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Технические характеристики и ассортимент:&lt;/h3&gt;
+ &lt;img width=&quot;978&quot; alt=&quot;GENERICA_tech.png&quot; src=&quot;/upload/medialibrary/70d/wio47x28let7jw7pai6ac3q6m7ypq0fy.png&quot; height=&quot;458&quot; title=&quot;GENERICA_tech.png&quot;&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ Приобрести &lt;b&gt;светодиодные лампы GENERICA&lt;/b&gt; можно на нашем&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/e0b/w3eic5qxrkelf3eiki4do9mfit7s1m55.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;GENERICA&quot;}},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;лампа&quot;}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;GENERICA&quot;}},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;лампа&quot;}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>216431</Ид>
+				<Наименование> Электроустановочные изделия BRITE IEK® – включи стиль!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/ffd/t01uz2tatwen08qghmm8gt4vn8ga52of.webp</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>elektroustanovochnye-izdeliya-brite-iek-vklyuchi-stil</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-10-14 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;span style=&quot;font-size: 14pt;&quot;&gt;Современная &lt;a href=&quot;https://ros-elektro.ru/catalog/rozetki_vyklyuchateli/rozetki_vyklyuchateli_iek/elektroustanovochnye_izdeliya_brite/&quot;&gt;серия электроустановочных изделий BRITE IEK®&lt;/a&gt;– это гармоничный дизайн и европейский подход, надежность в эксплуатации и привлекательная цена. Создание&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;линейки&amp;nbsp;основывалось на пожеланиях профессиональных электромонтажников и компаний партнеров, занимающих лидер&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;ские позиции на российском рынке электротехники.&lt;br&gt;
+ &lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Цветовая палитра и широкий ассортимент серии BRITE&amp;nbsp;позволяют решить все задачи при строительстве и ремонте жилой и коммерческой недвижимости, выполнить интерьеры в едином стиле.&lt;/span&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;h3&gt;Преимущества электроустановочных изделий BRITE IEK®:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+	10 цветовых решений.&lt;/li&gt;
+	&lt;li&gt;
+	3 уникальные фактуры.&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;
+	Широкий ассортимент.&lt;/li&gt;
+	&lt;li&gt;
+	Высококачественные материалы.&lt;/li&gt;
+	&lt;li&gt;
+	Универсальность и взаимозаменяемость.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+&lt;h3&gt;Технические характеристики электроустановочных изделий BRITE:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Тип монтажа: скрытый.&lt;/li&gt;
+	&lt;li&gt;
+	Номинальное напряжение: 230 В/ 50 Гц.&lt;/li&gt;
+	&lt;li&gt;
+	Номинальный ток для выключателей – 10 А, для розеток – 10 и 16 А.&lt;/li&gt;
+	&lt;li&gt;
+	Способ крепления: винтовой.&lt;/li&gt;
+	&lt;li&gt;
+	Контактные зажимы: винтовые.&lt;/li&gt;
+	&lt;li&gt;
+	Сечение подключаемых проводников: для выключателей – 2,5 мм2, для розеток – 4,0 мм2.&lt;/li&gt;
+	&lt;li&gt;
+	Степень защиты: IP20/IP44.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;Brite (1).png&quot; src=&quot;/upload/medialibrary/452/yn892r5krbs0tl0pib1yz7lsrst0jjy8.png&quot; height=&quot;635&quot; title=&quot;Brite (1).png&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;Brite (1)v.png&quot; src=&quot;/upload/medialibrary/73e/qpcteh3rdh7es93smvstzzg3803rk6tt.png&quot; height=&quot;635&quot; title=&quot;Brite (1)v.png&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+ &lt;img width=&quot;1024&quot; alt=&quot;Brite (1)i.png&quot; src=&quot;/upload/medialibrary/695/nj7w0ej2ky3yn98u49dv15m925o6epyq.png&quot; height=&quot;635&quot; title=&quot;Brite (1)i.png&quot;&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ &amp;nbsp; Приобрести &lt;b&gt;&lt;a href=&quot;https://ros-elektro.ru/catalog/rozetki_vyklyuchateli/rozetki_vyklyuchateli_iek/elektroustanovochnye_izdeliya_brite/&quot;&gt;электроустановочные изделия BRITE IEK&lt;/a&gt;&lt;/b&gt; можно на нашем&amp;nbsp;сайте&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/019/3j7i513pga9rfys4xxruofk9xoxuron4.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;brite&quot;}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;brite&quot;}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>216482</Ид>
+				<Наименование>Открытие филиала РОС-Электро в Москве</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/e06/03vldcow27t2bskzxjjcunbilz77wjzq.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>otkryt-novyy-filial-ros-elektro-v-moskve</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-10-20 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 16pt; color: #2f3192;&quot;&gt;В октябре 2022 года состоялось открытие новой точки&amp;nbsp;продаж &lt;/span&gt;&lt;span style=&quot;font-size: 16pt; color: #2f3192;&quot;&gt;РОС-Электро&amp;nbsp;в центральном регионе.&lt;/span&gt;&lt;/h2&gt;
+ &lt;b&gt;Приглашаем к сотрудничеству представителей монтажных организаций, юридических лиц, розничных покупателей.&lt;/b&gt;&lt;br&gt;
+ &lt;br&gt;
+ Адрес офиса продаж:&lt;b&gt; ул. Неверовского, 9, оф. 316, станция метро Парк Победы.&lt;/b&gt;&lt;br&gt;
+ Складской комплекс площадью 1000 кв. м расположен в Московской обл. г. Домодедово, Станционная, 15.&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;В наличии и под заказ представлен широкий ассортимент электротоваров:&lt;/span&gt;&lt;/h3&gt;
+ • кабельно-проводниковая продукция и системы для прокладки кабеля;&lt;br&gt;
+ • светотехнические изделия различного назначения и источники света;&lt;br&gt;
+ • розетки, выключатели, установочное электрооборудование;&lt;br&gt;
+ • счетчики электроэнергии&lt;br&gt;
+ • низковольтное оборудование;&lt;br&gt;
+ • электромонтажные изделия и инструмент для электромонтажа;&lt;br&gt;
+ • системы обогрева и вентиляции: тепловентиляторы, радиаторы, тепловые завесы, теплые полы;&lt;br&gt;
+ • высоковольтное оборудование: панели ЩО, камеры КСО, коммутационная аппаратура.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;Мы работаем для вас:&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;
+Пн - Пт: 09:00-18:00&lt;/b&gt;&lt;br&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Контакты филиала&amp;nbsp;в Москве:&lt;/span&gt;&lt;/h3&gt;
+ Телефон:&lt;b&gt; +7 (495) 225-22-77&lt;/b&gt;&lt;br&gt;
+ e-mail:&amp;nbsp;&lt;a href=&quot;mailto:msk.office@ros-elektro.ru&quot;&gt;msk.office@ros-elektro.ru&lt;/a&gt;&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/b83/s6mf1nbryjdx8rhypxttds0krd8pjlea.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>220710</Ид>
+				<Наименование>Поздравляем с наступающим Новым 2023 годом!</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/baa/twl8qmulrfcssza91hoadeqx33ig5ewm.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pozdravlyaem-s-nastupayushchim-novym-godom2023</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2022-12-28 10:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h3&gt;&lt;span style=&quot;font-size: 1.6em; color: #2f3192;&quot;&gt;Дорогие партнеры и клиенты!&amp;nbsp;&lt;/span&gt;&lt;br&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+ &lt;span style=&quot;color: #2f3192;&quot;&gt; &lt;/span&gt;
+&lt;h3&gt;&lt;/h3&gt;
+ В приближающемся году хочется вам пожелать финансовой стабильности, семейного благополучия и уверенности в завтрашнем дне.&lt;br&gt;
+ Чтобы Новый год принес вам огромный заряд бодрости, крепкое здоровье, душевный покой и оптимизм.&lt;br&gt;
+ Всего вам доброго и хорошего в Новом году!&lt;br&gt;
+ &lt;br&gt;
+ &lt;i&gt;С уважением, коллектив компании РОС-Электро&lt;/i&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;blockquote&gt;
+ &lt;b&gt;&lt;span style=&quot;color: #2f3192;&quot;&gt;График работы офисов в&amp;nbsp;период новогодних праздников:&lt;/span&gt;&lt;/b&gt;&lt;br&gt;
+ &lt;b&gt;С 31 декабря 2022 по 8 января 2023&lt;/b&gt;&lt;span style=&quot;color: #555555;&quot;&gt;&amp;nbsp;— выходные дни.&amp;nbsp;&lt;br&gt;
+ &lt;/span&gt;&lt;span style=&quot;color: #555555;&quot;&gt;&lt;b&gt;С 9 января 2023&amp;nbsp;&lt;/b&gt;&lt;/span&gt;—&amp;nbsp;работаем в обычном режиме. &lt;br&gt;
+	 Вы можете оформить заказ на сайте в любое время — мы обязательно зафиксируем его в нашей системе и приступим к его обработке в рабочие дни.&lt;br&gt;
+&lt;/blockquote&gt;
+ &lt;br&gt;
+ &lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/518/apf1xjr1bht0xnm907ghfy5os8ncccbi.jpg</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>221579</Ид>
+				<Наименование>Новая серия светильников направленного света IEK</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>news_files/iblock/9f6/5n8es87y2muo3fic4j9zznmef7zz81u4.jpg</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>svetilniki-napravlennogo-sveta-iek</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение>2023-01-19 12:44:00</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>&lt;h2&gt;&lt;span style=&quot;font-size: 18pt; color: #2f3192;&quot;&gt;Светильники направленного света − отличное решение для основного и акцентного освещения.&lt;/span&gt;&lt;/h2&gt;
+ &lt;span style=&quot;font-size: 14pt;&quot;&gt;Светильники IEK новой серии впишутся в любой стиль интерьера. Их легко монтировать и обслуживать: сменная лампа с цоколем GU10 или GX53 позволит подобрать необходимую мощность и цветовую температуру источника света.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Сочетайте в одном помещении несколько моделей одной серии светильников IEK для зонирования пространства и создания гармоничного интерьера в едином стиле.&lt;/span&gt;&lt;br&gt;
+&lt;h3&gt;Преимущества светильников направленного света IEK:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;Материал корпуса: алюминий.&lt;/li&gt;
+	&lt;li&gt;Для ламп с цоколем GU10 и GX53.&lt;/li&gt;
+	&lt;li&gt;Керамический патрон (для GU10), патрон из негорючего пластика (для - GX53).&lt;/li&gt;
+	&lt;li&gt;Максимальная мощность GU10 — 50 Вт, GX53 −15 Вт.&lt;/li&gt;
+	&lt;li&gt;Легкий монтаж на любой поверхности.&lt;/li&gt;
+	&lt;li&gt;Дополнительное крепление в подвесной потолок (для серии 4010).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Технические характеристики:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;/li&gt;
+	&lt;li&gt;50 000 часов службы.&lt;/li&gt;
+	&lt;li&gt;Степень защиты IP20.&lt;/li&gt;
+	&lt;li&gt;Лампа в комплект не входит.&lt;/li&gt;
+	&lt;li&gt;Гарантия производителя - 2 года.&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;a href=&quot;/upload/doc.files/11064_Svetilniki-napravlennogo-sveta-.pdf&quot;&gt;PDF Каталог IEK. Светильники направленного света.pdf&lt;/a&gt;&lt;br&gt;
+ &lt;br&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+ Приобрести светильники направленного света IEK можно на нашем сайте:&lt;br&gt;</Значение>
+						<Тип>html</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>news_files/iblock/bbb/7dj793iws53c7kyf7q7x2r4lep4i3dka.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>438</Ид>
+						<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:5612}}]},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;IEK&quot;}}]}</Значение>
+						<ЗначениеСвойства>
+							<Значение>{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondGroup&quot;,&quot;DATA&quot;:{&quot;All&quot;:&quot;AND&quot;,&quot;True&quot;:&quot;True&quot;},&quot;CHILDREN&quot;:[{&quot;CLASS_ID&quot;:&quot;CondIBSection&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Equal&quot;,&quot;value&quot;:5612}}]},{&quot;CLASS_ID&quot;:&quot;CondIBName&quot;,&quot;DATA&quot;:{&quot;logic&quot;:&quot;Contain&quot;,&quot;value&quot;:&quot;IEK&quot;}}]}</Значение>
+							<Описание></Описание>
+						</ЗначениеСвойства>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+		</Товары>
+	</Каталог>
+</КоммерческаяИнформация>
