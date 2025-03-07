@@ -276,10 +276,6 @@ ul.list-unstyled li:before {
   text-decoration: none;
 }
 
-.darken a {
-	white-space: nowrap;
-}
-
 .black {
   color: #222;
   color: var(--white_text_black);
